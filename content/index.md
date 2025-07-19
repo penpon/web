@@ -1,8 +1,4 @@
 ---
-title: Welcome to Quartz
+title: ぺんぽん日記
 ---
-
-penpon
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+読んだ本をまとめていく予定です
