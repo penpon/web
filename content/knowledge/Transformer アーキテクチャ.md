@@ -61,3 +61,4 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 
 - Input Embedding
 	- 入力されたトークンを高次元のベクトルに変換
+	- 猫という単語を
