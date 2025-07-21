@@ -3,7 +3,7 @@
 
 https://zenn.dev/zenkigen_tech/articles/2023-01-shimizu
 https://zenn.dev/yukiyada/articles/59f3b820c52571
-
+https://qiita.com/halhorn/items/c91497522be27bde17ce
 # Claude.ai
 
 Transformerの基本構造: エンコーダーとデコーダー
@@ -55,7 +55,9 @@ Transformerは全単語を同時に処理するため、単語の順序が分か
 
 Feed Forward Network: 各単語の表現を洗練
 Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が各単語の表現を個別に処理し、より豊かな表現に変換する
-# https://qiita.com/halhorn/items/c91497522be27bde17ce
+# 図の説明
 
 ![[Pasted image 20250721190442.png]]
 
+- Input Embedding
+	- 入力されたトークンを高次元のベクトルに変換
