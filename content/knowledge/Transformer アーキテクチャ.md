@@ -61,4 +61,11 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 
 - Input Embedding
 	- 入力されたトークンを高次元のベクトルに変換
-	- 猫という単語を
+	- 猫という単語を512次元のベクトル|0,2,-0.5,1.3,...|に変換
+- Positional Encoding
+	- 各単語の位置情報を付加
+	- Transformerは全単語を同時に処理するため順序情報を明示的に与える必要がある
+- Encoder Block
+	- Multi Head Attention
+		- 複数の視点から単語間の関係を学習
+		- 「それ」が「リンゴ」を指すような文脈的関係を捉える
