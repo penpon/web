@@ -59,11 +59,14 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 
 ![[Pasted image 20250721190442.png]]
 
-## Input/Output Embedding
+## 1. Input/Output Embedding (入力/出力 埋め込み層)
 
 役割
 - 離散的なトークンID(単語)を連続的な高次元ベクトル空間にマッピング
 - 意味的に類似した単語が近いベクトルに
+特徴
+- 512-1024次元のベクトルを使用
+
 
 
 
