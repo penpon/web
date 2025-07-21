@@ -95,34 +95,6 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 
 ## 3. Multi Head Attention
 
-
-- Encoder Block
-	- Multi Head Attention
-		- 複数の視点から単語間の関係を学習
-		- 
-	- Add & Norm
-		- 残差接続: 入力を出力に直接加算
-		- 層正規化: 値を正規化して学習を安定化
-	- Feed Forward
-		- 各位置の表現を個別に処理
-- Decoder Block
-	- Masked Multi Head Attention
-		- 特徴: 未来の単語を見ないようにマスク処理
-		- 理由: 生成時にはまだ生成していない単語の情報を使えないため
-	- Multi Head Attention
-		- 役割: 入力文の情報を基に出力を生成
-- 最終出力層
-	- Linear (線形変換)
-		- 役割: 最終的な表現を語彙サイズの次元に変換
-	- Softmax
-		- 役割: 各単語の確率分布を生成
-
-
-
-
-
-
-
 役割
 - 複数の表現で並列に注意機構を実行
 - 「それ」が「リンゴ」を指すような文脈的関係を捉える
