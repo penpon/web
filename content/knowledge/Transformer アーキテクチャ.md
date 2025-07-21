@@ -81,6 +81,34 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 - 各トークンの位置情報を付与
 - Transformerに単語の順序を理解させる
 
+```
+文章: "The cat sat"
+位置:   0    1    2
+位置エンコーディング:
+- pos=0: [sin(0), cos(0), sin(0/100), cos(0/100), ...]
+- pos=1: [sin(1), cos(1), sin(1/100), cos(1/100), ...]
+- pos=2: [sin(2), cos(2), sin(2/100), cos(2/100), ...]
+```
+
+## 3. Multi Head Attention
+
+役割
+- 複数の表現で並列に注意機構を実行
+- 異なる位置の異なる表現部分から情報を共同で注目
+特徴
+- Query, Key, Valueの3つの表現を使用
+
+```
+入力文: "The cat sat on the mat"
+Head 1: 文法的関係を学習
+  - "cat" → "sat" (主語-動詞)
+Head 2: 意味的関係を学習  
+  - "cat" → "mat" (動物-物体)
+Head 3: 局所的関係を学習
+  - "the" → "cat" (冠詞-名詞)
+```
+
+
 
 
 
