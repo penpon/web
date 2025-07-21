@@ -59,7 +59,7 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 
 ![[Pasted image 20250721190442.png]]
 
-## 1. Input/Output Embedding (入力/出力 埋め込み層)
+## 1. Input/Output Embedding
 
 役割
 - 離散的なトークンID(単語)を連続的な高次元ベクトル空間にマッピング
@@ -75,6 +75,11 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 - "cats" → [-0.4, 0.9, 0.1, ..., 1.5] (512次元)
 ```
 
+## 2. Positional Encoding
+
+役割
+- 各トークンの位置情報を付与
+- Transformerに単語の順序を理解させる
 
 
 
