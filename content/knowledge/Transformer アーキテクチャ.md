@@ -77,6 +77,8 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 
 
 
+
+
 - Input Embedding
 	- 役割: 入力されたトークンを高次元のベクトルに変換
 	- 例: 猫という単語を512次元のベクトル|0,2,-0.5,1.3,...|に変換
