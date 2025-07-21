@@ -2,6 +2,7 @@
 # 参考
 
 https://zenn.dev/zenkigen_tech/articles/2023-01-shimizu
+https://zenn.dev/yukiyada/articles/59f3b820c52571
 
 # Claude.ai
 
