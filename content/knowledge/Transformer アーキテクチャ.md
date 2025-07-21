@@ -139,7 +139,12 @@ Head 3: 局所的関係を学習
 ```
 
 
-## 6. 
+## 6. Feed Forward Network
+
+役割
+- 各位置で独立して非線形変換を適用
+特徴
+- ReLU or GELU活性化関数を使用
 
 
 - Input Embedding
