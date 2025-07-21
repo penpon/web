@@ -74,3 +74,10 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 		- 層正規化: 値を正規化して学習を安定化
 	- Feed Forward
 		- 各位置の表現を個別に処理
+- Decoder Block
+	- Masked Multi Head Attention
+		- 未来の単語を見ないようにマスク処理
+		- 生成時にはまだ生成していない単語の情報を使えないため
+	- Multi Head Attention
+		- エンコーダーの出力を参照
+		- 
