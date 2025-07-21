@@ -59,6 +59,12 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 
 ![[Pasted image 20250721190442.png]]
 
+## Input/Output Embedding
+
+役割
+- 離散的なトークンID(単語)を連続的な高次元ベクトル空間にマッピング
+- 意味的に類似した単語が近いベクトルに
+
 - Input Embedding
 	- 役割: 入力されたトークンを高次元のベクトルに変換
 	- 例: 猫という単語を512次元のベクトル|0,2,-0.5,1.3,...|に変換
