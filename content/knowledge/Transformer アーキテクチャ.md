@@ -49,7 +49,11 @@ Head3: 長距離の依存関係に注目
 Head4: 時系列的な関係に注目
 
 Positional Encoding: 単語の位置情報を教える
+Transformerは全単語を同時に処理するため、単語の順序が分からなくなる
+「太郎は花子を愛してる」と「花子は太郎を愛してる」は異なる意味ですが区別できない
 
+Feed Forward Network: 各単語の表現を洗練
+Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が各単語の表現を個別に処理し、より豊かな表現にへんかn
 
 
 
