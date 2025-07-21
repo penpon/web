@@ -69,3 +69,8 @@ Attention層で単語間の関係を捉えた後、Feed Forward Network (FFN)が
 	- Multi Head Attention
 		- 複数の視点から単語間の関係を学習
 		- 「それ」が「リンゴ」を指すような文脈的関係を捉える
+	- Add & Norm
+		- 残差接続: 入力を出力に直接加算
+		- 層正規化: 値を正規化して学習を安定化
+	- Feed Forward
+		- 各位置の表現を個別に処理
