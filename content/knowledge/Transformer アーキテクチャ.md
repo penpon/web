@@ -7,6 +7,9 @@ https://qiita.com/halhorn/items/c91497522be27bde17ce
 
 # youtube
 
+## 参考
+
+https://speakerdeck.com/mathbullet/dong-hua-ari-transformerlun-wen-jie-shuo
 ## 重要課題
 
 位置的に離れた系列要素間の依存関係
