@@ -4,6 +4,7 @@
 https://zenn.dev/zenkigen_tech/articles/2023-01-shimizu
 https://zenn.dev/yukiyada/articles/59f3b820c52571
 https://qiita.com/halhorn/items/c91497522be27bde17ce
+https://tips-memo.com/translation-jayalmmar-transformer
 
 # youtube
 
