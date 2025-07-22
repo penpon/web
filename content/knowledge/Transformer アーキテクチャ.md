@@ -4,6 +4,23 @@
 https://zenn.dev/zenkigen_tech/articles/2023-01-shimizu
 https://zenn.dev/yukiyada/articles/59f3b820c52571
 https://qiita.com/halhorn/items/c91497522be27bde17ce
+
+# youtube
+
+## 対抗馬
+
+再帰型ニューラルネットワーク
+- LSTM
+ - GRU
+❌ 系列の要素を順に入力していく -> 並列計算ができない
+
+畳み込みニューラルネットワーク
+- ByteNet
+- ConvS2S
+❌ 要素間距離に応じた計算量増加が顕著 -> 長距離依存の学習が困難
+
+並列化
+
 # Claude.ai
 
 Transformerの基本構造: エンコーダーとデコーダー
