@@ -28,7 +28,6 @@ https://speakerdeck.com/mathbullet/dong-hua-ari-transformerlun-wen-jie-shuo
 ❌ 要素間距離に応じた計算量増加が顕著 -> 長距離依存の学習が困難
 
 並列化が可能かつ長距離依存を学習できるモデルとしてTransformerを提案
-
 ## 既存からの引き継ぎ
 
 encoder-decoder mechanism (エンコーダ・デコーダ機構)
@@ -61,6 +60,7 @@ P_pos = [x, x, x, x, ........]
 
 位置情報が加味された各トークンの埋め込みベクトル -> 線形変換 -> 3つの行列を生成する
 -> Q,K,V
+
 
 
 # Claude.ai
