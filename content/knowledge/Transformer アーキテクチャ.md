@@ -7,6 +7,11 @@ https://qiita.com/halhorn/items/c91497522be27bde17ce
 
 # youtube
 
+## 重要課題
+
+位置的に離れた系列要素間の依存関係
+-> 長距離依存を把握できないと大半のタスクは解けない
+
 ## 対抗馬
 
 再帰型ニューラルネットワーク
@@ -19,7 +24,20 @@ https://qiita.com/halhorn/items/c91497522be27bde17ce
 - ConvS2S
 ❌ 要素間距離に応じた計算量増加が顕著 -> 長距離依存の学習が困難
 
-並列化
+並列化が可能かつ長距離依存を学習できるモデルとしてTransformerを提案
+
+## 既存からの引き継ぎ
+
+encoder-decoder mechanism (エンコーダ・デコーダ機構)
+特徴抽出、系列生成の二段構え
+self attention mechanism (自己注意機構)
+自系列間での重みづけ
+
+エンコーダ・デコーダの有用性を活かしつつ、自己注意機構で完結する初めてのモデル
+-> 再帰と畳み込みは不要！
+
+
+
 
 # Claude.ai
 
