@@ -63,7 +63,6 @@ P_pos = [x, x, x, x, ........]
 -> Q,K,V
 
 
-
 # Claude.ai
 
 Transformerの基本構造: エンコーダーとデコーダー
