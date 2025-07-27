@@ -27,7 +27,7 @@
 
 プロンプト以外に追加情報は一切提供しないでLLMに依頼すること
 
-# One-shot 
+# One-shot prompting
 
 プロンプト以外に追加情報を1つだけ提供してLLMに依頼すること
 
@@ -39,8 +39,10 @@
 
 最終的な回答を出す前に、段階的に考えるように、またはその推論を示すように依頼すること
 
+# Role Prompting
 
-- Role Prompting
+AIに特定のアイデンティティや役割を引き受けるように設定する
+
 - Contextual Prompting
 - Metaprompting
 - Self Consistency
