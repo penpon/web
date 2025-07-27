@@ -43,10 +43,19 @@
 
 AIに特定のアイデンティティや役割を引き受けるように設定する
 
-- Contextual Prompting
-- Metaprompting
-- Self Consistency
-- ReAct prompting
-- 
+# Contextual Prompting
 
+直接的なタスクの説明を超えた追加の情報を与えること
+
+# Metaprompting
+
+出力に関する指示を与える
+
+# Self Consistency
+
+同様のプロンプトで複数の出力を取得し、最良のものを選ぶ考え方
+
+# ReAct prompting
+
+推論と行動を組み合わせたプロンプト作成テクニック
 
