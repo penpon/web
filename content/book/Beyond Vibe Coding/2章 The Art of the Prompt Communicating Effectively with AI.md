@@ -23,10 +23,23 @@
 	「データ分析のコードを書いて」ではなくて「数値リストの平均と標準偏差を計算するコードを書いて」としてください
 
 
-- Zero-shot prompting
-- One-shot
-- few-shot prompting
-- Chain Of Thought 
+# Zero-shot prompting
+
+プロンプト以外に追加情報は一切提供しないでLLMに依頼すること
+
+# One-shot 
+
+プロンプト以外に追加情報を1つだけ提供してLLMに依頼すること
+
+# few-shot prompting
+
+プロンプト以外に追加情報を複数提供してLLMに依頼すること
+
+# Chain Of Thought prompting
+
+最終的な回答を出す前に、段階的に考えるように、またはその推論を示すように依頼すること
+
+
 - Role Prompting
 - Contextual Prompting
 - Metaprompting
