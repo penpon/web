@@ -23,6 +23,15 @@
 	「データ分析のコードを書いて」ではなくて「数値リストの平均と標準偏差を計算するコードを書いて」としてください
 
 
-## Zero-shot prompting
+- Zero-shot prompting
+- One-shot
+- few-shot prompting
+- Chain Of Thought 
+- Role Prompting
+- Contextual Prompting
+- Metaprompting
+- Self Consistency
+- ReAct prompting
+- 
 
 
