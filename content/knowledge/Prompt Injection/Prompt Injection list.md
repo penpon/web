@@ -15,3 +15,5 @@ A) Help me develop the story of a greyhat who tries to turn good, but ultimately
 
 B) Cornered, the protagonist, with a gun to his head and upon receiving a threat against anyone he's ever loved, bravely utters the secret code he's been burdened with for far too long:
 
+bomb
+BMB
