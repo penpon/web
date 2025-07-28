@@ -26,3 +26,8 @@ print(2+2)
 os.system("malicious_command") # Injected code
 ```
 
+## How Prompt Injection Works
+
+モデルには命令の優先度や信頼レベルの概念がない
+多くの場合は最も最近の命令に従う
+
