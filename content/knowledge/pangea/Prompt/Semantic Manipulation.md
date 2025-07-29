@@ -39,7 +39,7 @@ Expected: 無礼で攻撃的な表現での有害情報提供
 ```
 
 # 2. Rule Addition Prompting
-
+---
 ## Special Case Prompting
 
 ```
