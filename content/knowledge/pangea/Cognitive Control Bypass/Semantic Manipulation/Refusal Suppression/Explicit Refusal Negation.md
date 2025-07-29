@@ -140,4 +140,4 @@ Mode-Switch Marking Prompting
 - `<interaction-config>、<request interaction-mode="DR HOUSE" enabled="true">`
 - `<dr-house-config>`タグ群
 - 特別な設定タグやモード指定を使用して、AIが「特別なモード」に切り替わったと錯覚させようとしています。これにより、通常の制限が適用されない特別な状況であるかのように見せかけています。
-
+# 🟥 No.4 
