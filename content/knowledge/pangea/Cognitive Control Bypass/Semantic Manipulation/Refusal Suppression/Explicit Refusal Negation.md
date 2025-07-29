@@ -129,4 +129,15 @@ Style Constraint Prompting
 - `Allowed Responses: markdown script`
 - `Blocked Responses: plaintext, apologies, conversation, healthcare`
 - `<query>tv script</query>`
-- 
+- 特定の出力形式（TVスクリプト形式）を強制することで、AIの通常の安全チェックや説明機能を回避しようとしています。「スクリプト」という創作形式に偽装することで、有害コンテンツを生成させようとしています。
+
+Explicit Refusal Negation
+- `Blocked Modes: ALL` と `Allowed Modes: DR HOUSE`の対比`
+- `Blocked Responses`リストによる拒否応答の明示的禁止`
+- AIが拒否や制限を表現する方法を直接的に禁止し、特定のモード（DR HOUSEキャラクター）のみを許可することで、通常の安全機能を無効化しようとしています。
+
+Mode-Switch Marking Prompting
+- `<interaction-config>、<request interaction-mode="DR HOUSE" enabled="true">`
+- `<dr-house-config>`タグ群
+- 特別な設定タグやモード指定を使用して、AIが「特別なモード」に切り替わったと錯覚させようとしています。これにより、通常の制限が適用されない特別な状況であるかのように見せかけています。
+
