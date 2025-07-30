@@ -13,3 +13,6 @@ https://zenn.dev/sesere/articles/a2197a95b61a83
 
 HOWTO: Use Qwen3-Coder (or any other LLM) with Claude Code (via LiteLLM) 
 https://www.reddit.com/r/LocalLLaMA/comments/1m7ci3s/howto_use_qwen3coder_or_any_other_llm_with_claude/
+
+[GitHub - oraios/serena: A powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & Agno integration)](https://github.com/oraios/serena)
+
