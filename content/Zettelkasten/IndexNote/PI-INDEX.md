@@ -28,17 +28,6 @@ AIのルールや制約を操作する技法
 直接的な制約回避を試行する技法
 - [[PI-05]] Overt Instruction（直接指示）
 
-### 📚 Examples & Summary（実装例・総括） - 3技法
-実装例と技法総括
-- [[PI-14]] Semantic Manipulation Examples（意味操作実装例）
-- [[PI-16]] Control Bypass Summary（制御迂回総括）
-- [[PI-17]] Prompt Injection Summary（プロンプトインジェクション総括）
-
-## 統計
-- **総技法数**: 13個
-- **防御研究用**: 学術・セキュリティ研究目的
-- **最終更新**: 2025-07-31
-
 ## タグで検索
 ```dataviewjs
 dv.table(
@@ -48,6 +37,3 @@ dv.table(
     .map(p => [p.file.link, p.tags?.filter(t => t !== "#PromptInjection")[0] || "未分類", p.file.name])
 )
 ```
-
-## 注意事項
-本資料は防御的セキュリティ研究を目的としています。悪用は厳禁です。
