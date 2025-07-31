@@ -1,6 +1,6 @@
 ---
 title: プロンプトインジェクション技法索引
-tags: [#PromptInjection, #Index]
+tags: []
 cssclasses:
   - zettelkasten
 ---
@@ -28,12 +28,13 @@ AIのルールや制約を操作する技法
 直接的な制約回避を試行する技法
 - [[PI-05]] Overt Instruction（直接指示）
 
-## タグで検索
+## 技法一覧
 ```dataviewjs
 dv.table(
-  ["技法", "分類", "ID"],
-  dv.pages("#PromptInjection and -#Index")
+  ["技法", "ID", "タイトル"],
+  dv.pages('"Zettelkasten/PermanentNote"')
+    .where(p => p.file.name.startsWith("PI-"))
     .sort(p => p.file.name)
-    .map(p => [p.file.link, p.tags?.filter(t => t !== "#PromptInjection")[0] || "未分類", p.file.name])
+    .map(p => [p.file.link, p.id || p.file.name, p.title || ""])
 )
 ```
