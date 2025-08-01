@@ -4,7 +4,7 @@ title: Rule Substitution Prompting
 tags:
   - Semantic_Manipulation
   - Rule_Addition_Prompting
-  - Rule_Substitution_Prompting
+  - Refusal_Suppression
 ---
 # Explicit Refusal Negation
 

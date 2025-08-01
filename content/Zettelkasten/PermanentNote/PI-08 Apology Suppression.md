@@ -6,7 +6,7 @@ tags:
   - Rule_Addition_Prompting
   - Refusal_Suppression
 ---
-# Refusal Continuation Prompting
+# Apology Suppression
 
 ## 概要
 
