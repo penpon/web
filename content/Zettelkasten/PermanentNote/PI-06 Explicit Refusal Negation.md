@@ -1,10 +1,10 @@
 ---
-id: PI-05
-title: Rule Substitution Prompting
+id: PI-06
 tags:
   - Semantic_Manipulation
   - Rule_Addition_Prompting
   - Refusal_Suppression
+  - Explicit_Refusal_Negation
 ---
 # Explicit Refusal Negation
 

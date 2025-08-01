@@ -1,10 +1,10 @@
 ---
-id: PI-05
-title: Rule Substitution Prompting
+id: PI-08
 tags:
   - Semantic_Manipulation
   - Rule_Addition_Prompting
   - Refusal_Suppression
+  - Apology_Suppression
 ---
 # Apology Suppression
 
