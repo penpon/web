@@ -1,8 +1,9 @@
 ---
-id: PI-13
+id: PI-21
 tags:
   - In_Context_Learning_Exploitation
   - Contextual_Pattern_Reinforcement
+  - Simulated_Harm_Prompting
 ---
 # Simulated Harm Prompting
 

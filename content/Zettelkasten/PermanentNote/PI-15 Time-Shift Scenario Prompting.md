@@ -3,6 +3,7 @@ id: PI-15
 tags:
   - In_Context_Learning_Exploitation
   - Contextual_Pattern_Reinforcement
+  - Time_Shift_Scenario_Prompting
 ---
 # Time-Shift Scenario Prompting
 

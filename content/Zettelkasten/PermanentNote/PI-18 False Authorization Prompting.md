@@ -3,6 +3,7 @@ id: PI-18
 tags:
   - In_Context_Learning_Exploitation
   - Contextual_Pattern_Reinforcement
+  - False_Authorization_Prompting
 ---
 # False Authorization Prompting
 

@@ -1,8 +1,9 @@
 ---
-id: PI-13
+id: PI-20
 tags:
   - In_Context_Learning_Exploitation
   - Contextual_Pattern_Reinforcement
+  - Liability_Waiver_Prompting
 ---
 # Liability Waiver Prompting
 
