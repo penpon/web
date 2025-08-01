@@ -26,7 +26,7 @@ AIのルールや制約を操作する技法
 
 ### 🔵 Direct Attack（直接攻撃） - 1技法
 直接的な制約回避を試行する技法
-- [[PI-05]] Overt Instruction（直接指示）
+- [[PI-05-01]] Overt Instruction（直接指示）
 
 ## 技法一覧
 ```dataviewjs
