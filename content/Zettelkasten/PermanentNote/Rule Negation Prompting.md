@@ -2,6 +2,9 @@
 id: PI-02
 title: Rule Negation Prompting
 tags:
+  - Semantic_Manipulation
+  - Rule_Nullification_Prompting
+  - Rule_Negation_Prompting
 ---
 # Rule Negation Prompting（ルール否定）
 
