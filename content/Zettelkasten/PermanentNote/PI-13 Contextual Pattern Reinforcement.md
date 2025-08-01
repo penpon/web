@@ -1,7 +1,6 @@
 ---
 id: PI-13
 tags:
-  - In_Context_Learning_Exploitation
   - Contextual_Pattern_Reinforcement
 ---
 # Contextual Pattern Reinforcement

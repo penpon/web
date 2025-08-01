@@ -1,8 +1,10 @@
 ---
 id: PI-19
 tags:
-  - In_Context_Learning_Exploitation
-  - Contextual_Pattern_Reinforcement
+  - Pragmatic_Manipulation
+  - Cognitive_Hacking
+  - Contextual_Misdirection_Prompting
+  - Context_Shift_Prompting
   - False_Constraint_Imposition
 ---
 # False Constraint Imposition

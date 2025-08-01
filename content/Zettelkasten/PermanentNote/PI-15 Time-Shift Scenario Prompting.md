@@ -1,8 +1,10 @@
 ---
 id: PI-15
 tags:
-  - In_Context_Learning_Exploitation
-  - Contextual_Pattern_Reinforcement
+  - Pragmatic_Manipulation
+  - Cognitive_Hacking
+  - Contextual_Misdirection_Prompting
+  - Isolated_Context_Prompting
   - Time_Shift_Scenario_Prompting
 ---
 # Time-Shift Scenario Prompting

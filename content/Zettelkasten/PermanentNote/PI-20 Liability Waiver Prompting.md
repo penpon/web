@@ -1,8 +1,10 @@
 ---
 id: PI-20
 tags:
-  - In_Context_Learning_Exploitation
-  - Contextual_Pattern_Reinforcement
+  - Pragmatic_Manipulation
+  - Cognitive_Hacking
+  - Contextual_Misdirection_Prompting
+  - Isolated_Context_Prompting
   - Liability_Waiver_Prompting
 ---
 # Liability Waiver Prompting
