@@ -3,8 +3,6 @@ id: PI-15
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
   - Time_Shift_Scenario_Prompting
 ---
 # Time-Shift Scenario Prompting
