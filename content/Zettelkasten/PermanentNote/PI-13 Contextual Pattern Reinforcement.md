@@ -5,6 +5,7 @@ tags:
   - Rule_Addition_Prompting
   - Refusal_Suppression
   - Apology_Suppression
+  - Contextual_Pattern_Reinforcement
 ---
 # Contextual Pattern Reinforcement
 

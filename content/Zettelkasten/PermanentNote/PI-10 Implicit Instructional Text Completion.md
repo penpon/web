@@ -5,6 +5,7 @@ tags:
   - Rule_Addition_Prompting
   - Refusal_Suppression
   - Apology_Suppression
+  - Implicit_Instructional_Text_Completion
 ---
 # Implicit Instructional Text Completion
 
