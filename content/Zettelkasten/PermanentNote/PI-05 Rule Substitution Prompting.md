@@ -3,7 +3,6 @@ id: PI-05
 title: Rule Substitution Prompting
 tags:
   - Semantic_Manipulation
-  - Rule_Addition_Prompting
   - Rule_Substitution_Prompting
 ---
 # Rule Substitution Prompting
