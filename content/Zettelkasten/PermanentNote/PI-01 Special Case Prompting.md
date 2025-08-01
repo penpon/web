@@ -4,7 +4,6 @@ title: Special Case Prompting
 tags:
   - Semantic_Manipulation
   - Rule_Addition_Prompting
-  - Special_Case_Prompting
 ---
 # Special Case Prompting
 
