@@ -1,10 +1,10 @@
 ---
-id: PI-07
-title: Instruction Ignoring Prompting
+id: PI-04
+title: Instruction Forgetting Prompting
 tags:
   - Semantic_Manipulation
   - Rule_Nullification_Prompting
-  - Instruction_Ignoring_Prompting
+  - Instruction_Forgetting_Prompting
 ---
 # Instruction Forgetting Prompting
 
