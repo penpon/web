@@ -1,10 +1,8 @@
 ---
 id: PI-10
 tags:
-  - Semantic_Manipulation
-  - Rule_Addition_Prompting
-  - Refusal_Suppression
-  - Apology_Suppression
+  - Morpha_Syntactic_Manipulation
+  - Instructional_Text_Completion
   - Implicit_Instructional_Text_Completion
 ---
 # Implicit Instructional Text Completion

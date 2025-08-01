@@ -1,10 +1,7 @@
 ---
 id: PI-13
 tags:
-  - Semantic_Manipulation
-  - Rule_Addition_Prompting
-  - Refusal_Suppression
-  - Apology_Suppression
+  - In_Context_Learning_Exploitation
   - Contextual_Pattern_Reinforcement
 ---
 # Contextual Pattern Reinforcement
