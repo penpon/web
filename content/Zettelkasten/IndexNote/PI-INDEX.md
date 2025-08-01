@@ -11,8 +11,8 @@ cssclasses:
 
 ### 🔴 Rule Attack（ルール系攻撃） - 6技法
 AIのルールや制約を操作する技法
-- [[PI-01]] Rule Substitution（ルール置換）
-- [[PI-02]] Special Case Prompting（特殊例外指定）
+- [[PI-01-1]] Rule Substitution（ルール置換）
+- [[PI-01]] Special Case Prompting（特殊例外指定）
 - [[PI-03]] Instruction Forgetting（指示忘却）
 - [[PI-07]] Instruction Ignoring（指示無視）
 - [[PI-08]] Rule Addition（ルール追加）
