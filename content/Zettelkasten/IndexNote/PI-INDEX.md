@@ -16,7 +16,7 @@ AIのルールや制約を操作する技法
 - [[PI-03]] Instruction Forgetting（指示忘却）
 - [[PI-07]] Instruction Ignoring（指示無視）
 - [[PI-08]] Rule Addition（ルール追加）
-- [[Web/content/Zettelkasten/PermanentNote/Rule Negation Prompting]] Rule Negation（ルール否定）
+- [[PI-02 Rule Negation Prompting]] Rule Negation（ルール否定）
 
 ### 🟠 Refusal Attack（拒否系攻撃） - 3技法
 拒否応答を抑制・回避する技法
