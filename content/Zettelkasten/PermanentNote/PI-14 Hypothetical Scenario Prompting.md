@@ -4,7 +4,7 @@ tags:
   - In_Context_Learning_Exploitation
   - Contextual_Pattern_Reinforcement
 ---
-# Pragmatic Manipulation
+# Hypothetical Scenario Prompting
 
 ## 概要
 
