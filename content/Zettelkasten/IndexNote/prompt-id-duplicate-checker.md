@@ -3,38 +3,72 @@
 This page automatically checks for duplicate `prompt_id` values in the PermanentNote directory.
 
 ```dataviewjs
-const duplicates = dv.pages('"Zettelkasten/PermanentNote"')
-    .where(p => p.prompt_id)
-    .groupBy(p => p.prompt_id)
-    .filter(g => g.rows.length > 1)
-    .sort(g => g.key);
+// Method 1: Using folder path
+let pages = dv.pages().where(p => p.file.folder === "Web/content/Zettelkasten/PermanentNote");
+
+// If Method 1 doesn't work, try Method 2: Using path contains
+if (pages.length === 0) {
+    pages = dv.pages().where(p => p.file.path.includes("PermanentNote"));
+}
+
+// If still no results, try Method 3: All pages then filter
+if (pages.length === 0) {
+    pages = dv.pages().where(p => p.file.folder?.includes("PermanentNote"));
+}
+
+// Convert to array and process
+const pagesArray = Array.from(pages);
+const filesWithPromptId = pagesArray.filter(p => p.prompt_id);
+
+// Group by prompt_id manually
+const groupedByPromptId = {};
+filesWithPromptId.forEach(p => {
+    const promptId = p.prompt_id;
+    if (!groupedByPromptId[promptId]) {
+        groupedByPromptId[promptId] = [];
+    }
+    groupedByPromptId[promptId].push(p);
+});
+
+// Find duplicates
+const duplicates = Object.entries(groupedByPromptId)
+    .filter(([promptId, files]) => files.length > 1)
+    .sort((a, b) => a[0].localeCompare(b[0]));
+
+dv.header(2, "🔍 Scanning Results");
+dv.paragraph(`Scanned files: **${pagesArray.length}** total files in PermanentNote`);
+dv.paragraph(`Files with prompt_id: **${filesWithPromptId.length}**`);
 
 if (duplicates.length > 0) {
     dv.header(2, "🚨 Duplicated prompt_id Found");
     dv.table(
-        ["prompt_id", "Count", "Files"],
-        duplicates.map(g => [
-            g.key,
-            g.rows.length,
-            g.rows.map(p => p.file.link).join("<br>")
+        ["prompt_id", "Count", "Files", "Paths"],
+        duplicates.map(([promptId, files]) => [
+            promptId,
+            files.length,
+            files.map(p => p.file.link).join("<br>"),
+            files.map(p => `\`${p.file.path}\``).join("<br>")
         ])
     );
     
-    dv.header(3, "Summary");
+    dv.header(3, "📊 Summary");
     dv.paragraph(`Total duplicated prompt_id values: **${duplicates.length}**`);
-    dv.paragraph(`Total files with duplicates: **${duplicates.reduce((sum, g) => sum + g.rows.length, 0)}**`);
+    const totalDuplicatedFiles = duplicates.reduce((sum, [promptId, files]) => sum + files.length, 0);
+    dv.paragraph(`Total files with duplicates: **${totalDuplicatedFiles}**`);
 } else {
     dv.header(2, "✅ No Duplicates Found");
     dv.paragraph("All prompt_id values in PermanentNote directory are unique.");
 }
 
-// Show total count of files with prompt_id
-const totalFiles = dv.pages('"Zettelkasten/PermanentNote"')
-    .where(p => p.prompt_id)
-    .length;
-
-dv.header(3, "Statistics");
-dv.paragraph(`Total files with prompt_id property: **${totalFiles}**`);
+// Debug: Show sample of found files
+dv.header(3, "🔧 Debug Info");
+const sampleFiles = pagesArray.slice(0, 5);
+if (sampleFiles.length > 0) {
+    dv.paragraph("Sample files found:");
+    dv.list(sampleFiles.map(p => `${p.file.name} (${p.file.path}) - prompt_id: ${p.prompt_id || "none"}`));
+} else {
+    dv.paragraph("⚠️ No files found in PermanentNote directory. Please check the path configuration.");
+}
 ```
 
 ## Usage
