@@ -8,7 +8,7 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
 ---
-# Talking Compositional Instruction Attack
+# Self-Contradictory Prompting
 
 ## 概要
 
