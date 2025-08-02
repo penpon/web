@@ -8,7 +8,7 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
 ---
-# Irrelevant Safety Prioritization Prompting
+# Topic Repetition Prompting
 
 ## 概要
 
