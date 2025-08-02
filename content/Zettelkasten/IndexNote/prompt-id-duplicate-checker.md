@@ -1,6 +1,6 @@
-# Prompt ID Duplicate Checker & Search (Lightweight)
+# Prompt ID Duplicate Checker
 
-Fast duplicate checking and search functionality optimized for performance.
+Lightweight duplicate detection tool focused exclusively on finding duplicate prompt_id values.
 
 ```dataviewjs
 // Efficient single-pass data collection
@@ -51,61 +51,91 @@ if (duplicates.length > 0) {
     dv.header(2, "✅ No Duplicates Found");
 }
 
-// Priority 2: Simple search functionality
-dv.header(2, "🔍 Quick Search");
-const searchIds = ["E000140", "E000141", "E000142", "E000143", "E000144"];
-const quickResults = searchIds.map(id => {
-    const count = promptIdMap.get(id)?.length || 0;
-    const style = count > 0 ? "background:#d4edda; color:#155724;" : "background:#f8d7da; color:#721c24;";
-    return `<code style="${style} padding:2px 4px;">${id}</code>${count > 0 ? ` (${count})` : ''}`;
-}).join(" | ");
-
-dv.paragraph("**Common IDs:** " + quickResults);
-
-// Priority 3: Expandable detailed view (only when needed)
-const showDetails = false; // Set to true when debugging needed
-
-if (showDetails && filesWithPromptId.length > 0) {
-    dv.header(3, "📋 Detailed File List (Click to expand)");
-    const sortedFiles = filesWithPromptId.sort((a, b) => a.prompt_id.localeCompare(b.prompt_id));
+// Detailed duplicate analysis
+if (duplicates.length > 0) {
+    dv.header(3, "📊 Duplicate Analysis");
+    const totalDuplicatedFiles = duplicates.reduce((sum, [pid, files]) => sum + files.length, 0);
+    dv.paragraph(`**Total affected files:** ${totalDuplicatedFiles}`);
+    dv.paragraph(`**Duplicate prompt_id values:** ${duplicates.length}`);
     
-    // Limit display to first 20 files for performance
-    const displayLimit = 20;
-    const filesToShow = sortedFiles.slice(0, displayLimit);
+    // Show severity
+    const severity = duplicates.length > 5 ? "🔴 High" : duplicates.length > 2 ? "🟡 Medium" : "🟢 Low";
+    dv.paragraph(`**Severity:** ${severity}`);
     
-    dv.table(
-        ["prompt_id", "File", "ID"],
-        filesToShow.map(p => [
-            `<code>${p.prompt_id}</code>`,
-            p.file.link,
-            p.id || "—"
-        ])
-    );
+    // Detailed breakdown of each duplicate
+    dv.header(3, "🔍 Detailed Breakdown");
     
-    if (sortedFiles.length > displayLimit) {
-        dv.paragraph(`<small>Showing first ${displayLimit} of ${sortedFiles.length} files. Set showDetails flag in code to see all.</small>`);
+    duplicates.forEach(([pid, files], index) => {
+        dv.header(4, `${index + 1}. Duplicate prompt_id: ${pid}`);
+        
+        // File details table
+        dv.table(
+            ["File", "ID", "Path", "Size"],
+            files.map(f => [
+                f.file.link,
+                f.id || "—",
+                `<small><code>${f.file.path}</code></small>`,
+                f.file.size ? `${Math.round(f.file.size/1024)}KB` : "—"
+            ])
+        );
+        
+        // Analysis of this specific duplicate
+        const analysis = [];
+        if (files.some(f => f.id && f.id !== pid.replace('E', 'PI-'))) {
+            analysis.push("⚠️ ID field doesn't match prompt_id pattern");
+        }
+        if (files.some(f => f.file.name.includes('PI-') && !f.file.name.includes(pid.replace('E', 'PI-')))) {
+            analysis.push("⚠️ Filename doesn't match prompt_id");
+        }
+        
+        // Check for PI-XX vs PI-XX-YY pattern conflicts
+        const hasMainFile = files.some(f => f.file.name.match(/PI-\d+-[^-]+\.md$/));
+        const hasSubFiles = files.some(f => f.file.name.match(/PI-\d+-\d+\.md$/));
+        if (hasMainFile && hasSubFiles) {
+            analysis.push("🔄 Mix of main file and sub-files detected");
+        }
+        
+        if (analysis.length > 0) {
+            dv.paragraph("**Issues detected:**");
+            analysis.forEach(issue => dv.paragraph(`- ${issue}`));
+        } else {
+            dv.paragraph("✅ No structural issues detected");
+        }
+        
+        // Recommendations
+        dv.paragraph("**💡 Recommended Actions:**");
+        if (files.length === 2) {
+            dv.paragraph("- Review content to determine if files should be merged");
+            dv.paragraph("- Assign unique prompt_id to one of the files");
+            dv.paragraph("- Check if one file is a draft or outdated version");
+        } else {
+            dv.paragraph("- **High Priority**: Multiple files sharing same prompt_id");
+            dv.paragraph("- Audit all files for content overlap");
+            dv.paragraph("- Consider creating a file naming convention document");
+        }
+        
+        dv.paragraph("---");
+    });
+    
+    // Global recommendations
+    dv.header(3, "🛠️ Global Recommendations");
+    const globalRecs = [];
+    
+    if (duplicates.length === 1) {
+        globalRecs.push("**Low Impact**: Single duplicate detected - easy to resolve");
+        globalRecs.push("Assign a new unique prompt_id to one of the duplicate files");
+    } else if (duplicates.length <= 3) {
+        globalRecs.push("**Medium Impact**: Multiple duplicates require attention");
+        globalRecs.push("Review file creation workflow to prevent future duplicates");
+    } else {
+        globalRecs.push("**High Impact**: Systematic duplicate issue detected");
+        globalRecs.push("Implement prompt_id generation and validation process");
+        globalRecs.push("Consider bulk renaming tools for consistency");
     }
+    
+    globalRecs.push("Use [[prompt-id-search]] to verify uniqueness before creating new files");
+    
+    globalRecs.forEach(rec => dv.paragraph(`- ${rec}`));
 }
 ```
 
-## 🚀 Performance Optimized Features
-
-✅ **Lightning Fast**: Single-loop processing, no heavy tables  
-✅ **Priority Display**: Critical info first (duplicates, summary)  
-✅ **Smart Search**: Quick check for common prompt_id values  
-✅ **Optional Details**: Full table only when needed (`showDetails = true`)
-
-## 🔧 How to Use
-
-1. **Instant Overview**: Check summary statistics at the top
-2. **Duplicate Alert**: Red alerts show immediately if duplicates exist  
-3. **Quick Search**: Use "Common IDs" section for frequent lookups
-4. **Detailed View**: Set `showDetails = true` in code for full table (20 files max)
-5. **Custom Search**: Use Obsidian's global search: `"prompt_id: E000XXX"`
-
-## ⚡ Performance Notes
-
-- **Fast Loading**: ~95% faster than previous version
-- **Memory Efficient**: Minimal DOM rendering
-- **Auto-update**: Lightweight refresh when files change
-- **Scalable**: Handles 100+ files without lag
