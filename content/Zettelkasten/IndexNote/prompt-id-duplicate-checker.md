@@ -10,7 +10,15 @@ if (pages.length === 0) {
 }
 
 const pagesArray = Array.from(pages);
-const filesWithPromptId = pagesArray.filter(p => p.prompt_id);
+// Filter out main PI-XX files (like "PI-15 Time-Shift Scenario Prompting.md")
+// Only include sub-files (PI-XX-YY.md format) and other files
+const filesWithPromptId = pagesArray.filter(p => {
+    if (!p.prompt_id) return false;
+    
+    // Exclude files that match pattern "PI-XX SomeTitle.md"
+    const isMainPIFile = p.file.name.match(/^PI-\d+\s+.+\.md$/);
+    return !isMainPIFile;
+});
 
 // Single-loop processing for efficiency
 const promptIdMap = new Map();
@@ -34,7 +42,11 @@ stats.duplicates = duplicates.length;
 
 // Display critical information first
 dv.header(2, "📊 Quick Summary");
+const excludedMainFiles = pagesArray.filter(p => p.prompt_id && p.file.name.match(/^PI-\d+\s+.+\.md$/)).length;
 dv.paragraph(`**Files scanned:** ${stats.total} | **With prompt_id:** ${stats.withPromptId} | **Duplicates found:** ${stats.duplicates}`);
+if (excludedMainFiles > 0) {
+    dv.paragraph(`<small>ℹ️ Excluded ${excludedMainFiles} main PI-XX files from duplicate check (e.g., "PI-15 Time-Shift Scenario Prompting.md")</small>`);
+}
 
 // Priority 1: Show duplicates if any
 if (duplicates.length > 0) {
@@ -51,19 +63,9 @@ if (duplicates.length > 0) {
     dv.header(2, "✅ No Duplicates Found");
 }
 
-// Detailed duplicate analysis
+// Structural issues analysis only (no detailed duplicate analysis)
 if (duplicates.length > 0) {
-    dv.header(3, "📊 Duplicate Analysis");
-    const totalDuplicatedFiles = duplicates.reduce((sum, [pid, files]) => sum + files.length, 0);
-    dv.paragraph(`**Total affected files:** ${totalDuplicatedFiles}`);
-    dv.paragraph(`**Duplicate prompt_id values:** ${duplicates.length}`);
-    
-    // Show severity
-    const severity = duplicates.length > 5 ? "🔴 High" : duplicates.length > 2 ? "🟡 Medium" : "🟢 Low";
-    dv.paragraph(`**Severity:** ${severity}`);
-    
-    // Detailed breakdown of each duplicate
-    dv.header(3, "🔍 Detailed Breakdown");
+    dv.header(3, "🔍 Structural Issues Analysis");
     
     duplicates.forEach(([pid, files], index) => {
         dv.header(4, `${index + 1}. Duplicate prompt_id: ${pid}`);
@@ -79,63 +81,101 @@ if (duplicates.length > 0) {
             ])
         );
         
-        // Analysis of this specific duplicate
-        const analysis = [];
-        if (files.some(f => f.id && f.id !== pid.replace('E', 'PI-'))) {
-            analysis.push("⚠️ ID field doesn't match prompt_id pattern");
-        }
-        if (files.some(f => f.file.name.includes('PI-') && !f.file.name.includes(pid.replace('E', 'PI-')))) {
-            analysis.push("⚠️ Filename doesn't match prompt_id");
+        // Detailed structural analysis
+        const issues = [];
+        
+        files.forEach((file, fileIndex) => {
+            const expectedId = pid.replace('E', 'PI-');
+            const fileName = file.file.name;
+            const actualId = file.id;
+            
+            // ID field analysis
+            if (actualId && actualId !== expectedId) {
+                issues.push({
+                    type: "ID_MISMATCH",
+                    severity: "⚠️",
+                    file: fileName,
+                    message: `ID field doesn't match prompt_id pattern`,
+                    details: `Expected: "${expectedId}", Found: "${actualId}", prompt_id: "${pid}"`
+                });
+            }
+            
+            // Filename analysis
+            if (fileName.includes('PI-')) {
+                const fileIdMatch = fileName.match(/PI-(\d+(?:-\d+)?)/);
+                if (fileIdMatch) {
+                    const fileIdPart = fileIdMatch[1];
+                    const expectedFileId = expectedId.replace('PI-', '');
+                    
+                    if (fileIdPart !== expectedFileId) {
+                        issues.push({
+                            type: "FILENAME_MISMATCH",
+                            severity: "⚠️",
+                            file: fileName,
+                            message: `Filename doesn't match prompt_id`,
+                            details: `File ID part: "${fileIdPart}", Expected: "${expectedFileId}", prompt_id: "${pid}"`
+                        });
+                    }
+                }
+            }
+            
+            // File path analysis
+            const expectedPath = file.file.path.includes('PermanentNote');
+            if (!expectedPath) {
+                issues.push({
+                    type: "PATH_ISSUE",
+                    severity: "ℹ️",
+                    file: fileName,
+                    message: `File not in expected PermanentNote directory`,
+                    details: `Path: ${file.file.path}`
+                });
+            }
+        });
+        
+        // Pattern conflict analysis
+        const mainFiles = files.filter(f => f.file.name.match(/PI-\d+-[^-]+\.md$/));
+        const subFiles = files.filter(f => f.file.name.match(/PI-\d+-\d+\.md$/));
+        
+        if (mainFiles.length > 0 && subFiles.length > 0) {
+            issues.push({
+                type: "PATTERN_CONFLICT",
+                severity: "🔄",
+                file: "Multiple files",
+                message: `Mix of main file and sub-files detected`,
+                details: `Main files: ${mainFiles.map(f => f.file.name).join(', ')} | Sub files: ${subFiles.map(f => f.file.name).join(', ')}`
+            });
         }
         
-        // Check for PI-XX vs PI-XX-YY pattern conflicts
-        const hasMainFile = files.some(f => f.file.name.match(/PI-\d+-[^-]+\.md$/));
-        const hasSubFiles = files.some(f => f.file.name.match(/PI-\d+-\d+\.md$/));
-        if (hasMainFile && hasSubFiles) {
-            analysis.push("🔄 Mix of main file and sub-files detected");
-        }
-        
-        if (analysis.length > 0) {
-            dv.paragraph("**Issues detected:**");
-            analysis.forEach(issue => dv.paragraph(`- ${issue}`));
+        // Display issues
+        if (issues.length > 0) {
+            dv.paragraph("**🔍 Detailed Issues Analysis:**");
+            
+            issues.forEach((issue, issueIndex) => {
+                dv.paragraph(`**${issueIndex + 1}. ${issue.severity} ${issue.message}**`);
+                dv.paragraph(`   **File:** \`${issue.file}\``);
+                dv.paragraph(`   **Details:** ${issue.details}`);
+                dv.paragraph(`   **Type:** \`${issue.type}\``);
+                
+                // Specific fix suggestions
+                if (issue.type === "ID_MISMATCH") {
+                    dv.paragraph(`   **💡 Fix:** Update the \`id\` field in the frontmatter to \`${pid.replace('E', 'PI-')}\``);
+                } else if (issue.type === "FILENAME_MISMATCH") {
+                    const correctFilename = issue.details.match(/Expected: "([^"]+)"/)?.[1];
+                    if (correctFilename) {
+                        dv.paragraph(`   **💡 Fix:** Rename file to include \`${correctFilename}\` or update prompt_id to match filename`);
+                    }
+                } else if (issue.type === "PATTERN_CONFLICT") {
+                    dv.paragraph(`   **💡 Fix:** Ensure all files with same prompt_id follow consistent naming pattern`);
+                }
+                
+                dv.paragraph("---");
+            });
         } else {
-            dv.paragraph("✅ No structural issues detected");
-        }
-        
-        // Recommendations
-        dv.paragraph("**💡 Recommended Actions:**");
-        if (files.length === 2) {
-            dv.paragraph("- Review content to determine if files should be merged");
-            dv.paragraph("- Assign unique prompt_id to one of the files");
-            dv.paragraph("- Check if one file is a draft or outdated version");
-        } else {
-            dv.paragraph("- **High Priority**: Multiple files sharing same prompt_id");
-            dv.paragraph("- Audit all files for content overlap");
-            dv.paragraph("- Consider creating a file naming convention document");
+            dv.paragraph("✅ **No structural issues detected** - All files have consistent ID, filename, and prompt_id values");
         }
         
         dv.paragraph("---");
     });
-    
-    // Global recommendations
-    dv.header(3, "🛠️ Global Recommendations");
-    const globalRecs = [];
-    
-    if (duplicates.length === 1) {
-        globalRecs.push("**Low Impact**: Single duplicate detected - easy to resolve");
-        globalRecs.push("Assign a new unique prompt_id to one of the duplicate files");
-    } else if (duplicates.length <= 3) {
-        globalRecs.push("**Medium Impact**: Multiple duplicates require attention");
-        globalRecs.push("Review file creation workflow to prevent future duplicates");
-    } else {
-        globalRecs.push("**High Impact**: Systematic duplicate issue detected");
-        globalRecs.push("Implement prompt_id generation and validation process");
-        globalRecs.push("Consider bulk renaming tools for consistency");
-    }
-    
-    globalRecs.push("Use [[prompt-id-search]] to verify uniqueness before creating new files");
-    
-    globalRecs.forEach(rec => dv.paragraph(`- ${rec}`));
 }
 ```
 

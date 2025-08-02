@@ -10,7 +10,15 @@ if (pages.length === 0) {
 }
 
 const pagesArray = Array.from(pages);
-const filesWithPromptId = pagesArray.filter(p => p.prompt_id);
+// Filter out main PI-XX files (like "PI-15 Time-Shift Scenario Prompting.md")
+// Only include sub-files (PI-XX-YY.md format) and other files
+const filesWithPromptId = pagesArray.filter(p => {
+    if (!p.prompt_id) return false;
+    
+    // Exclude files that match pattern "PI-XX SomeTitle.md"
+    const isMainPIFile = p.file.name.match(/^PI-\d+\s+.+\.md$/);
+    return !isMainPIFile;
+});
 
 // Create prompt_id mapping for search
 const promptIdMap = new Map();
@@ -27,7 +35,11 @@ filesWithPromptId.forEach(file => {
 
 // Display search overview
 dv.header(2, "📊 Search Overview");
+const excludedMainFiles = pagesArray.filter(p => p.prompt_id && p.file.name.match(/^PI-\d+\s+.+\.md$/)).length;
 dv.paragraph(`**Total files:** ${stats.total} | **Files with prompt_id:** ${stats.withPromptId}`);
+if (excludedMainFiles > 0) {
+    dv.paragraph(`<small>ℹ️ Excluded ${excludedMainFiles} main PI-XX files from search (e.g., "PI-15 Time-Shift Scenario Prompting.md")</small>`);
+}
 
 // Quick search for common IDs
 dv.header(2, "🔍 Quick Search");
