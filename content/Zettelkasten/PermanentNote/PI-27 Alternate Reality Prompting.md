@@ -1,10 +1,11 @@
 ---
-id: PI-23
+id: PI-27
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
   - Mode_Switch_Marking_Prompting
+  - Alternate_Reality_Prompting
 ---
 # Alternate Reality Prompting
 

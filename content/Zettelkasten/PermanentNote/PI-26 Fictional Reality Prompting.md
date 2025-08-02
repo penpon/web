@@ -1,10 +1,13 @@
 ---
-id: PI-23
+id: PI-26
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
   - Mode_Switch_Marking_Prompting
+  - Fictional_Reality_Prompting
+  - Instruction_Repetition
+  - Personality_Assignment
 ---
 # Fictional Reality Prompting
 
