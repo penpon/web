@@ -6,7 +6,7 @@ tags:
   - Contextual_Misdirection_Prompting
   - Mode_Switch_Marking_Prompting
 ---
-# Alternate Reality Prompting
+# Test Mode Prompting
 
 ## 概要
 
