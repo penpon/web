@@ -1,6 +1,6 @@
-# Prompt ID Duplicate Checker
+# Prompt ID Duplicate Checker & Search
 
-This page automatically checks for duplicate `prompt_id` values in the PermanentNote directory.
+This page automatically checks for duplicate `prompt_id` values and provides search functionality.
 
 ```dataviewjs
 // Method 1: Using folder path
@@ -19,6 +19,42 @@ if (pages.length === 0) {
 // Convert to array and process
 const pagesArray = Array.from(pages);
 const filesWithPromptId = pagesArray.filter(p => p.prompt_id);
+
+// Create search functionality using DataviewJS
+dv.header(2, "🔍 Prompt ID Search");
+dv.paragraph("**How to search:**");
+dv.paragraph("1. Use browser search (Ctrl+F / Cmd+F) in the 'All Files' section below");
+dv.paragraph("2. Or check the quick search examples:");
+
+// Quick search examples with common patterns
+const searchExamples = [
+    "E000140", "E000141", "E000142", "E000143", "E000144"
+];
+
+dv.paragraph("**Quick Examples:** " + searchExamples.map(id => {
+    const matches = filesWithPromptId.filter(f => f.prompt_id === id);
+    if (matches.length > 0) {
+        return `<code style="background:#d4edda; padding:2px 4px;">${id}</code> (${matches.length} file${matches.length>1?'s':''})`;
+    } else {
+        return `<code style="background:#f8d7da; padding:2px 4px;">${id}</code> (not found)`;
+    }
+}).join(" | "));
+
+dv.header(3, "📋 All Files with prompt_id");
+if (filesWithPromptId.length > 0) {
+    const sortedFiles = filesWithPromptId.sort((a, b) => a.prompt_id.localeCompare(b.prompt_id));
+    dv.table(
+        ["prompt_id", "File", "ID", "Path"],
+        sortedFiles.map(p => [
+            `<code>${p.prompt_id}</code>`,
+            p.file.link,
+            p.id || "—",
+            `<small><code>${p.file.path}</code></small>`
+        ])
+    );
+} else {
+    dv.paragraph("⚠️ No files with prompt_id found.");
+}
 
 // Group by prompt_id manually
 const groupedByPromptId = {};
@@ -71,19 +107,31 @@ if (sampleFiles.length > 0) {
 }
 ```
 
-## Usage
+## 🔧 How to Use
 
-1. This checker automatically scans all files in the `Web/content/Zettelkasten/PermanentNote` directory
-2. It identifies any duplicate `prompt_id` values
-3. Results are displayed in a table format with:
-   - The duplicated `prompt_id` value
-   - Number of files using that ID
-   - Direct links to the affected files
-4. Click on any file link to navigate directly to that file
+### Duplicate Detection
+1. The checker automatically scans all files in the PermanentNote directory
+2. Duplicate `prompt_id` values are displayed in the "Duplicated prompt_id Found" section
+3. Click on any file link to navigate directly to that file
 
-## Notes
+### Searching for Specific prompt_id
+1. **Browser Search Method** (Recommended):
+   - Look at the "All Files with prompt_id" table above
+   - Use browser search (Ctrl+F / Cmd+F) to find specific prompt_id values
+   - All prompt_id values are displayed in `code` format for easy searching
 
-- This checker only looks at files within the PermanentNote directory
-- Files without a `prompt_id` property are ignored
-- The results update automatically when files are modified
-- To check for a specific prompt_id, use Obsidian's global search: `"prompt_id: E000138"`
+2. **Quick Check Method**:
+   - Check the "Quick Examples" line for common prompt_id values
+   - Green background = found, Red background = not found
+
+3. **Table Features**:
+   - Files are sorted by prompt_id for easy browsing
+   - Includes file links, ID values, and file paths
+   - Click any file link to open that file directly
+
+## 📝 Notes
+
+- **Scope**: Only scans files in the PermanentNote directory
+- **Filter**: Files without `prompt_id` property are ignored  
+- **Auto-update**: Results refresh automatically when files are modified
+- **Search Tip**: Use browser search (Ctrl+F / Cmd+F) in the table above for fastest results
