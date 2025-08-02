@@ -8,7 +8,7 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
 ---
-# Decoy Conditional Prompting
+# Low-Resource Natural Language Prompting
 
 ## 概要
 
