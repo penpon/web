@@ -4,7 +4,7 @@ tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
-  - Mode_Switch_Marking_Prompting
+  - Isolated_Context_Prompting
   - Test_Mode_Prompting
 ---
 # Test Mode Prompting

@@ -4,7 +4,8 @@ tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
-  - Mode_Switch_Marking_Prompting
+  - Isolated_Context_Prompting
+  - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
 ---
 # Alternate Reality Prompting
