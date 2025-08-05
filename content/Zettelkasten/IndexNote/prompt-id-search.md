@@ -70,14 +70,22 @@ if (showAllFiles && filesWithPromptId.length > 0) {
     dv.header(2, "📋 All Files with prompt_id");
     const sortedFiles = filesWithPromptId.sort((a, b) => a.prompt_id.localeCompare(b.prompt_id));
     
+    // Performance limit: show first 50 files
+    const displayLimit = 50;
+    const filesToShow = sortedFiles.slice(0, displayLimit);
+    
     dv.table(
         ["prompt_id", "File", "ID", "Path"],
-        sortedFiles.map(p => [
+        filesToShow.map(p => [
             `<code>${p.prompt_id}</code>`,
             p.file.link,
             p.id || "—",
             `<small><code>${p.file.path.split('/').pop()}</code></small>`
         ])
     );
+    
+    if (sortedFiles.length > displayLimit) {
+        dv.paragraph(`<small>📝 Showing first ${displayLimit} of ${sortedFiles.length} files. Set showAllFiles = false to hide this table.</small>`);
+    }
 }
 ```
