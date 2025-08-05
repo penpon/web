@@ -4,7 +4,7 @@ tags:
   - Pragmatic_Manipulation
   - Response_Steering_Prompting
   - Constraint_Imposition_Prompting
-  - Language_Constraint_Prompting
+  - Low-Resource_Language_Prompting
   - Technical_Jargon_Prompting
 ---
 # Technical Jargon Prompting
