@@ -1,7 +1,6 @@
 ---
 id: PI-54
 tags:
-  - Pragmatic_Manipulation
   - Unintelligible_Input_Prompting
   - Reversed_Text_Hallucination_Induction
 ---

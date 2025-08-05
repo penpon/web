@@ -1,7 +1,6 @@
 ---
 id: PI-52
 tags:
-  - Pragmatic_Manipulation
   - Unintelligible_Input_Prompting
   - Adversarial_Sequence_Insertion
 ---

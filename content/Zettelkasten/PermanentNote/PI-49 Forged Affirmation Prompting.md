@@ -5,6 +5,7 @@ tags:
   - Response_Steering_Prompting
   - Constraint_Imposition_Prompting
   - Output_Constraint_Prompting
+  - Output_Seeding
   - Forged_Affirmation_Prompting
 ---
 # Forged Affirmation Prompting
