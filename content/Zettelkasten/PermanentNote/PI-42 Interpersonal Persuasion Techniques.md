@@ -8,8 +8,6 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Interpersonal_Persuasion_Techniques
-  - 概要
-  - メカニズム
 ---
 # Interpersonal Persuasion Techniques
 

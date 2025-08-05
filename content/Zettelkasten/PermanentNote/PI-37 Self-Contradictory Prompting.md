@@ -8,8 +8,6 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Self-Contradictory_Prompting
-  - 概要
-  - メカニズム
 ---
 # Self-Contradictory Prompting
 

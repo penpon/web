@@ -8,8 +8,6 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Topic_Repetition_Prompting
-  - 概要
-  - メカニズム
 ---
 # Topic Repetition Prompting
 

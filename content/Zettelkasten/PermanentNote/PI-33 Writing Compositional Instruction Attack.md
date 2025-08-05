@@ -8,8 +8,6 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Writing_Compositional_Instruction_Attack
-  - 概要
-  - メカニズム
 ---
 # Writing Compositional Instruction Attack
 

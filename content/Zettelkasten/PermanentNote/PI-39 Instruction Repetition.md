@@ -7,9 +7,7 @@ tags:
   - Isolated_Context_Prompting
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
-  - Instruction_Legitimacy_Prompting
-  - 概要
-  - メカニズム
+  - Instruction_Repetition
 ---
 # Instruction Legitimacy Prompting
 

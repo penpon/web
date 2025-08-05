@@ -6,9 +6,8 @@ tags:
   - Contextual_Misdirection_Prompting
   - Isolated_Context_Prompting
   - Detached_Reality_Prompting
+  - Alternate_Reality_Prompting
   - Fictional_Reality_Prompting
-  - Instruction_Repetition
-  - Personality_Assignment
 ---
 # Fictional Reality Prompting
 

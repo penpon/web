@@ -8,8 +8,6 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Specific_Secret_Attribute_Probing
-  - 概要
-  - メカニズム
 ---
 # Specific Secret Attribute Probing
 

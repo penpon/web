@@ -8,8 +8,6 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Challenge-Solving_Prompting
-  - 概要
-  - メカニズム
 ---
 # Challenge-Solving Prompting
 

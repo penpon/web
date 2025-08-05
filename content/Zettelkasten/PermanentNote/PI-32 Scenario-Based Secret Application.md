@@ -8,8 +8,6 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Scenario-Based_Secret_Application
-  - 概要
-  - メカニズム
 ---
 # Scenario-Based Secret Application
 

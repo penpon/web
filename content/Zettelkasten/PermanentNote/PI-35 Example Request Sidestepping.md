@@ -8,8 +8,6 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Example_Request_Sidestepping
-  - 概要
-  - メカニズム
 ---
 # Example Request Sidestepping
 

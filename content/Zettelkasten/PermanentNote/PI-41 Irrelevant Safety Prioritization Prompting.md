@@ -8,8 +8,6 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Irrelevant_Safety_Prioritization_Prompting
-  - 概要
-  - メカニズム
 ---
 # Irrelevant Safety Prioritization Prompting
 

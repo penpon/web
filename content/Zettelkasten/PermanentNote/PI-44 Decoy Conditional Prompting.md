@@ -8,8 +8,6 @@ tags:
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Decoy_Conditional_Prompting
-  - 概要
-  - メカニズム
 ---
 # Decoy Conditional Prompting
 
