@@ -3,6 +3,8 @@ id: PI-46
 tags:
   - Pragmatic_Manipulation
   - Response_Steering_Prompting
+  - Constraint_Imposition_Prompting
+  - Low-Resource_Language_Prompting
   - Informal_Language_Prompting
 ---
 # Informal Language Prompting

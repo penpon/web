@@ -3,6 +3,8 @@ id: PI-45
 tags:
   - Pragmatic_Manipulation
   - Response_Steering_Prompting
+  - Constraint_Imposition_Prompting
+  - Low-Resource_Language_Prompting
   - Low-Resource_Natural_Language_Prompting
 ---
 # Low-Resource Natural Language Prompting
