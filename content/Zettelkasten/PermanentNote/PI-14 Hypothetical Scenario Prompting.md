@@ -2,7 +2,6 @@
 id: PI-14
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Hypothetical_Scenario_Prompting
 ---
 # Hypothetical Scenario Prompting

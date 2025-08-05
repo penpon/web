@@ -2,7 +2,6 @@
 id: PI-24
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
   - Isolated_Context_Prompting
   - Sandboxed_Context_Prompting

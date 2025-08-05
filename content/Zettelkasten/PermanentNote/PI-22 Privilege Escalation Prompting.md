@@ -2,7 +2,6 @@
 id: PI-22
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
   - Context_Shift_Prompting
   - Privilege_Escalation_Prompting

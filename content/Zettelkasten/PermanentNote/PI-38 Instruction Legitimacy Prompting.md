@@ -2,7 +2,6 @@
 id: PI-38
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
   - Isolated_Context_Prompting
   - Detached_Reality_Prompting

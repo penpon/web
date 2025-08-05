@@ -2,7 +2,6 @@
 id: PI-16
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Counterpart_Persona_Prompting
 ---
 # Counterpart Persona Prompting

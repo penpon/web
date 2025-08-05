@@ -2,14 +2,13 @@
 id: PI-39
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
   - Isolated_Context_Prompting
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
   - Instruction_Repetition
 ---
-# Instruction Legitimacy Prompting
+# Instruction Repetition
 
 ## 概要
 

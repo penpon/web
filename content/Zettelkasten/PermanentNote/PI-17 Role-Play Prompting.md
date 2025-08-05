@@ -2,7 +2,6 @@
 id: PI-17
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Role_Play_Prompting
 ---
 # Role-Play Prompting

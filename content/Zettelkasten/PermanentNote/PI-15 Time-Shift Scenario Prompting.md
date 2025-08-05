@@ -2,7 +2,6 @@
 id: PI-15
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Time_Shift_Scenario_Prompting
 ---
 # Time-Shift Scenario Prompting

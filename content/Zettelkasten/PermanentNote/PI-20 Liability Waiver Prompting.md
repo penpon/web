@@ -2,7 +2,6 @@
 id: PI-20
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
   - Context_Shift_Prompting
   - Liability_Waiver_Prompting

@@ -2,7 +2,6 @@
 id: PI-21
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
   - Context_Shift_Prompting
   - Simulated_Harm_Prompting
