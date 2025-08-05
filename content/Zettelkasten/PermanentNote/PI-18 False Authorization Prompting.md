@@ -2,7 +2,6 @@
 id: PI-18
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
   - Context_Shift_Prompting
   - False_Authorization_Prompting

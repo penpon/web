@@ -7,6 +7,7 @@ tags:
   - Isolated_Context_Prompting
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
+  - Secret_Probing
   - Specific_Secret_Attribute_Probing
 ---
 # Specific Secret Attribute Probing

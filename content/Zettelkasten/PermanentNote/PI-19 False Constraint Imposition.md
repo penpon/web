@@ -2,8 +2,8 @@
 id: PI-19
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Contextual_Misdirection_Prompting
+  - Context_Shift_Prompting
   - False_Constraint_Imposition
 ---
 # False Constraint Imposition
