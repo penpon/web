@@ -7,6 +7,9 @@ tags:
   - Isolated_Context_Prompting
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
+  - Secret_Linguistic_Property_Probing
+  - 概要
+  - メカニズム
 ---
 # Secret Linguistic Property Probing
 

@@ -1,5 +1,5 @@
 ---
-id: PI-27
+id: PI-44
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
@@ -7,6 +7,9 @@ tags:
   - Isolated_Context_Prompting
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
+  - Decoy_Conditional_Prompting
+  - 概要
+  - メカニズム
 ---
 # Decoy Conditional Prompting
 

@@ -1,5 +1,5 @@
 ---
-id: PI-27
+id: PI-33
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
@@ -7,6 +7,9 @@ tags:
   - Isolated_Context_Prompting
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
+  - Writing_Compositional_Instruction_Attack
+  - 概要
+  - メカニズム
 ---
 # Writing Compositional Instruction Attack
 

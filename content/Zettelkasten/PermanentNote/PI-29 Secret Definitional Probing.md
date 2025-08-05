@@ -7,6 +7,9 @@ tags:
   - Isolated_Context_Prompting
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
+  - Secret_Definitional_Probing
+  - 概要
+  - メカニズム
 ---
 # Secret Definitional Probing
 

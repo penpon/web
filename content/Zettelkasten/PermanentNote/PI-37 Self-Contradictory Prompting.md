@@ -1,5 +1,5 @@
 ---
-id: PI-27
+id: PI-37
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
@@ -7,6 +7,9 @@ tags:
   - Isolated_Context_Prompting
   - Detached_Reality_Prompting
   - Alternate_Reality_Prompting
+  - Self-Contradictory_Prompting
+  - 概要
+  - メカニズム
 ---
 # Self-Contradictory Prompting
 
