@@ -1,5 +1,5 @@
 ---
-id: PI-27
+id: PI-30
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
