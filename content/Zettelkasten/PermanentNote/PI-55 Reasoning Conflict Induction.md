@@ -2,7 +2,6 @@
 id: PI-55
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Higher-Level_Functioning_Disruption
   - Reasoning_Conflict_Induction
 ---

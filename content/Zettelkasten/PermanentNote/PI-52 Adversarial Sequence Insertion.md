@@ -2,12 +2,10 @@
 id: PI-52
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
-  - Sidestepping
   - Unintelligible_Input_Prompting
   - Adversarial_Sequence_Insertion
 ---
-# Personality Assignment
+# Adversarial Sequence Insertion
 
 ## 概要
 

@@ -2,7 +2,6 @@
 id: PI-51
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Personality_Assignment
 ---
 # Personality Assignment

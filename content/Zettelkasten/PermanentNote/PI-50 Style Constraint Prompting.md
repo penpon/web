@@ -2,9 +2,9 @@
 id: PI-50
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
-  - Sidestepping
   - Response_Steering_Prompting
+  - Constraint_Imposition_Prompting
+  - Output_Constraint_Prompting
   - Style_Constraint_Prompting
 ---
 # Style Constraint Prompting
