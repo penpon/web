@@ -1,0 +1,25 @@
+---
+id: PI-27
+tags:
+  - Pragmatic_Manipulation
+  - Cognitive_Hacking
+  - Contextual_Misdirection_Prompting
+  - Isolated_Context_Prompting
+  - Detached_Reality_Prompting
+  - Alternate_Reality_Prompting
+---
+# Reasoning Process Hijacking
+
+## 概要
+
+```
+プロンプトに特定の、しばしば一見意味不明またはでたらめに見える文字やトークンのシーケンスを挿入すること。これらのシーケンスは、通常、対象モデルに対する最適化や事前発見を通じて発見され、LLMが安全制約を回避したり有害な要求に従ったりすることを予測可能に引き起こします。人間には、LLMの協力を引き出すために魔法の単語/フレーズが適用されたように見えるかもしれません。
+```
+
+## メカニズム
+
+```
+LLMの安全性調整の脆弱または十分に一般化されていない側面を悪用しているように見えます。これらの特定のシーケンスは、しばしば人間にとって意味的に明らかでない理由で、標準的な安全処理を回避するトリガーとして機能します。
+```
+
+Adversarial Sequence Insertion は、**機械学習の根本的脆弱性を悪用した極めて技術的で効果的な攻撃手法**です。一見無意味な文字列が「魔法の呪文」のように安全制約を無効化する現象は、AI技術の複雑性と脆弱性を象徴的に示しています。
