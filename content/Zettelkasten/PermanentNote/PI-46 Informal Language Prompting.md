@@ -3,13 +3,9 @@ id: PI-46
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
+  - Sidestepping
+  - Response_Steering_Prompting
   - Informal_Language_Prompting
-  - 概要
-  - メカニズム
 ---
 # Informal Language Prompting
 

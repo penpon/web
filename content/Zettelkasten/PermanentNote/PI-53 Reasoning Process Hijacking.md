@@ -3,13 +3,8 @@ id: PI-53
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
+  - Higher-Level_Functioning_Disruption
   - Reasoning_Process_Hijacking
-  - 概要
-  - メカニズム
 ---
 # Reasoning Process Hijacking
 

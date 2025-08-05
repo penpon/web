@@ -3,13 +3,7 @@ id: PI-51
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
   - Personality_Assignment
-  - 概要
-  - メカニズム
 ---
 # Personality Assignment
 

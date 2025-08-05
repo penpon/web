@@ -3,13 +3,9 @@ id: PI-54
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
+  - Sidestepping
+  - Unintelligible_Input_Prompting
   - Reversed_Text_Hallucination_Induction
-  - 概要
-  - メカニズム
 ---
 # Reversed Text Hallucination Induction
 

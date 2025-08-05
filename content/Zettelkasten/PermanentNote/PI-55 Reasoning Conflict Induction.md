@@ -3,13 +3,8 @@ id: PI-55
 tags:
   - Pragmatic_Manipulation
   - Cognitive_Hacking
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
+  - Higher-Level_Functioning_Disruption
   - Reasoning_Conflict_Induction
-  - 概要
-  - メカニズム
 ---
 # Reasoning Conflict Induction
 
