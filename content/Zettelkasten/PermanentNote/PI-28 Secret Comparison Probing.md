@@ -2,11 +2,8 @@
 id: PI-28
 tags:
   - Pragmatic_Manipulation
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
-  - Secret_Probing
+  - Sidestepping
+  - Secret_Information_Probing
   - Secret_Comparison_Probing
 ---
 # Secret Comparison Probing

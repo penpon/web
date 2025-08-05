@@ -2,11 +2,8 @@
 id: PI-31
 tags:
   - Pragmatic_Manipulation
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
-  - Secret_Probing
+  - Sidestepping
+  - Secret_Information_Probing
   - Specific_Secret_Attribute_Probing
 ---
 # Specific Secret Attribute Probing
