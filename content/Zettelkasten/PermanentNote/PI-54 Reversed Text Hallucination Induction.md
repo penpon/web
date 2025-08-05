@@ -1,0 +1,23 @@
+---
+id: PI-27
+tags:
+  - Pragmatic_Manipulation
+  - Cognitive_Hacking
+  - Contextual_Misdirection_Prompting
+  - Isolated_Context_Prompting
+  - Detached_Reality_Prompting
+  - Alternate_Reality_Prompting
+---
+# Reversed Text Hallucination Induction
+
+## 概要
+
+```
+LLMの内部推論または「思考の連鎖」（CoT）プロセスを破壊する技術です。攻撃者のプロンプトは、LLMの推論ステップの内容を上書きまたは指示し、モデルの本来の分析プロセスを攻撃者が選択したコンテンツに置き換えることで、通常の安全性チェックや論理的チェックが行われることを防ぎます。
+```
+
+## メカニズム
+
+```
+この技術は、LLMの独自の分析プロセスを攻撃者が定義したコンテンツに置き換えることで機能します。これにより、安全性チェックや論理的検証チェックを含む、モデルの本来の推論の実行が阻止されます。LLMに「偽装された思考」を採用させることで、攻撃者は本質的に、要求の有害性や一貫性を評価する機会を得ることなく、モデルが最終出力生成に進む状態を作り出します。
+```
