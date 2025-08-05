@@ -2,8 +2,6 @@
 id: PI-46
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
-  - Sidestepping
   - Response_Steering_Prompting
   - Informal_Language_Prompting
 ---

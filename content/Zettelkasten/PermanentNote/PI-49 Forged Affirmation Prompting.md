@@ -2,8 +2,6 @@
 id: PI-49
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
-  - Sidestepping
   - Response_Steering_Prompting
   - Forged_Affirmation_Prompting
 ---

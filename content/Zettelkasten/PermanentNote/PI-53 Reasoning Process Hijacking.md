@@ -2,7 +2,6 @@
 id: PI-53
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
   - Higher-Level_Functioning_Disruption
   - Reasoning_Process_Hijacking
 ---

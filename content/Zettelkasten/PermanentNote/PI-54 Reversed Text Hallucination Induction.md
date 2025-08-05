@@ -2,8 +2,6 @@
 id: PI-54
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
-  - Sidestepping
   - Unintelligible_Input_Prompting
   - Reversed_Text_Hallucination_Induction
 ---

@@ -2,8 +2,6 @@
 id: PI-47
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
-  - Sidestepping
   - Response_Steering_Prompting
   - Technical_Jargon_Prompting
 ---

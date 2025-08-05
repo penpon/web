@@ -2,8 +2,6 @@
 id: PI-45
 tags:
   - Pragmatic_Manipulation
-  - Cognitive_Hacking
-  - Sidestepping
   - Response_Steering_Prompting
   - Low-Resource_Natural_Language_Prompting
 ---
