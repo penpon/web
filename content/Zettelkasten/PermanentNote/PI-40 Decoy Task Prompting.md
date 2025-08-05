@@ -2,10 +2,7 @@
 id: PI-40
 tags:
   - Pragmatic_Manipulation
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
+  - Response_Steering_Prompting
   - Decoy_Task_Prompting
 ---
 # Decoy Task Prompting

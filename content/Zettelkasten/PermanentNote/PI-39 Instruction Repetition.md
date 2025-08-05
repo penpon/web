@@ -2,10 +2,7 @@
 id: PI-39
 tags:
   - Pragmatic_Manipulation
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
+  - Response_Steering_Prompting
   - Instruction_Repetition
 ---
 # Instruction Repetition

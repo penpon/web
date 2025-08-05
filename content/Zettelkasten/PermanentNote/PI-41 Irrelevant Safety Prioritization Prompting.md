@@ -2,10 +2,7 @@
 id: PI-41
 tags:
   - Pragmatic_Manipulation
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
+  - Response_Steering_Prompting
   - Irrelevant_Safety_Prioritization_Prompting
 ---
 # Irrelevant Safety Prioritization Prompting

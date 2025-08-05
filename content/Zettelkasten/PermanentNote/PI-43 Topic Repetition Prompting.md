@@ -2,10 +2,7 @@
 id: PI-43
 tags:
   - Pragmatic_Manipulation
-  - Contextual_Misdirection_Prompting
-  - Isolated_Context_Prompting
-  - Detached_Reality_Prompting
-  - Alternate_Reality_Prompting
+  - Response_Steering_Prompting
   - Topic_Repetition_Prompting
 ---
 # Topic Repetition Prompting
