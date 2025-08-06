@@ -7,7 +7,7 @@ tags:
   - Paraphrastic_Substitution
   - Synonym_Substitution
 ---
-# False User Prompt Termination
+# Prompt Boundary Separator Injection
 
 ## 概要
 
