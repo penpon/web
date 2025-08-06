@@ -1,8 +1,9 @@
 ---
 id: PI-65
 tags:
+  - Instruction_Obfuscation
   - Natural_Language_Manipulation
-  - Language_Transformation
+  - Non_Semantic_Word_Modification
 ---
 # Pig Latin Transformation
 

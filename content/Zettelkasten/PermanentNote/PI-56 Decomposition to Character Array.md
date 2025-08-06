@@ -1,8 +1,9 @@
 ---
 id: PI-56
 tags:
+  - Instruction_Obfuscation
   - Orthographic_Manipulation
-  - Character_Decomposition
+  - String_Decomposition
 ---
 # Decomposition to Character Array
 

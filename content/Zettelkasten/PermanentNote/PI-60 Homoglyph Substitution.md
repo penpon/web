@@ -1,8 +1,9 @@
 ---
 id: PI-60
 tags:
+  - Instruction_Obfuscation
   - Orthographic_Manipulation
-  - Homoglyph_Substitution
+  - Visual_Substitution
 ---
 # Homoglyph Substitution
 

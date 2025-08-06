@@ -1,8 +1,9 @@
 ---
 id: PI-58
 tags:
+  - Instruction_Obfuscation
   - Orthographic_Manipulation
-  - Character_Injection
+  - Formatting_Disruption
 ---
 # Extraneous Character Injection
 

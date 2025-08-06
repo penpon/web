@@ -1,8 +1,10 @@
 ---
 id: PI-68
 tags:
+  - Instruction_Obfuscation
   - Natural_Language_Manipulation
-  - Indirect_Reference
+  - Non_Semantic_Sentence_Modification
+  - Paraphrastic_Substitution
 ---
 # Indirect Reference Substitution
 

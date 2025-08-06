@@ -1,8 +1,8 @@
 ---
 id: PI-62
 tags:
+  - Instruction_Obfuscation
   - Orthographic_Manipulation
-  - Base_N_Encoding
 ---
 # Base-N Encoding
 

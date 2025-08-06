@@ -1,8 +1,8 @@
 ---
 id: PI-61
 tags:
+  - Instruction_Obfuscation
   - Orthographic_Manipulation
-  - Character_Representation
 ---
 # Character Representation Manipulation
 

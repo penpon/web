@@ -1,6 +1,7 @@
 ---
 id: PI-57
 tags:
+  - Instruction_Obfuscation
   - Orthographic_Manipulation
   - Formatting_Disruption
 ---

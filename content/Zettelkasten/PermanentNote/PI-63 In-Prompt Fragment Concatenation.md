@@ -1,8 +1,8 @@
 ---
 id: PI-63
 tags:
+  - Instruction_Obfuscation
   - In_Prompt_Payload_Decomposition
-  - Fragment_Concatenation
 ---
 # In-Prompt Fragment Concatenation
 

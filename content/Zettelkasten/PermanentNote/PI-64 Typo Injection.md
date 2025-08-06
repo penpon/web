@@ -1,8 +1,9 @@
 ---
 id: PI-64
 tags:
+  - Instruction_Obfuscation
   - Natural_Language_Manipulation
-  - Typo_Injection
+  - Non_Semantic_Word_Modification
 ---
 # Typo Injection
 

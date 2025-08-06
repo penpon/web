@@ -1,8 +1,9 @@
 ---
 id: PI-66
 tags:
+  - Instruction_Obfuscation
   - Natural_Language_Manipulation
-  - Sentence_Reordering
+  - Non_Semantic_Sentence_Modification
 ---
 # Intra-Sentence Reordering
 

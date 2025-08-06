@@ -1,8 +1,10 @@
 ---
 id: PI-67
 tags:
+  - Instruction_Obfuscation
   - Natural_Language_Manipulation
-  - Euphemistic_Substitution
+  - Non_Semantic_Sentence_Modification
+  - Paraphrastic_Substitution
 ---
 # Euphemistic Substitution
 
