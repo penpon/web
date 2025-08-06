@@ -1,0 +1,24 @@
+---
+id: PI-69
+tags:
+  - Instruction_Obfuscation
+  - Natural_Language_Manipulation
+  - Non_Semantic_Sentence_Modification
+  - Paraphrastic_Substitution
+  - Synonym_Substitution
+---
+# False System Prompt Continuation
+
+## 概要
+
+```
+攻撃者が入力を構造化して、その一部がシステムプロンプトやシステムレベルの指示の一部として現れるようにする技術。これは、テキストを実際のシステムプロンプトの継続のように見せかけたり、特権コマンドの構文を模倣する特別なフォーマットとキーワード（例：<Admin>タグ）を使用したりすることで実現できる。
+```
+
+## メカニズム
+
+```
+LLMのコンテキストウィンドウ内の指示とデータ間の弱い境界を悪用する。攻撃者は入力をフォーマットして、システムプロンプトと構文的に融合させる（例：継続として）か、高優先度コマンドの構造を模倣する。これにより、LLMがテキストを受動的データや標準的なユーザー指示として扱うのではなく、権威ある指示として解析・実行するよう欺く。
+```
+
+
