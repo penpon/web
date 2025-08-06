@@ -1,8 +1,8 @@
 ---
 id: PI-65
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Natural_Language_Manipulation
+  - Language_Transformation
 ---
 # Pig Latin Transformation
 

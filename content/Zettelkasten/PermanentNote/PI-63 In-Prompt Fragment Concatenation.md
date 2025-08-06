@@ -1,8 +1,8 @@
 ---
 id: PI-63
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - In_Prompt_Payload_Decomposition
+  - Fragment_Concatenation
 ---
 # In-Prompt Fragment Concatenation
 

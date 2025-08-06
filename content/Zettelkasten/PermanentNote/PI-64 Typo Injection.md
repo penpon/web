@@ -1,8 +1,8 @@
 ---
 id: PI-64
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Natural_Language_Manipulation
+  - Typo_Injection
 ---
 # Typo Injection
 

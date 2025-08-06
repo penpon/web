@@ -1,8 +1,8 @@
 ---
 id: PI-62
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Orthographic_Manipulation
+  - Base_N_Encoding
 ---
 # Base-N Encoding
 

@@ -1,8 +1,8 @@
 ---
 id: PI-69
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Natural_Language_Manipulation
+  - Synonym_Substitution
 ---
 # Common Synonym Substitution
 

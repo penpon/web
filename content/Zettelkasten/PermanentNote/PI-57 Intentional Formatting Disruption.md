@@ -1,8 +1,8 @@
 ---
 id: PI-57
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Orthographic_Manipulation
+  - Formatting_Disruption
 ---
 # Intentional Formatting Disruption
 

@@ -1,8 +1,8 @@
 ---
 id: PI-61
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Orthographic_Manipulation
+  - Character_Representation
 ---
 # Character Representation Manipulation
 

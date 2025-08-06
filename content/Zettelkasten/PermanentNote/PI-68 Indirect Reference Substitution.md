@@ -1,8 +1,8 @@
 ---
-id: PI-55
+id: PI-68
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Natural_Language_Manipulation
+  - Indirect_Reference
 ---
 # Indirect Reference Substitution
 
@@ -18,9 +18,4 @@ tags:
 すぐには明確でない意味にマッピングされるコードや文脈依存の参照を使用する。
 明示的な有害用語を探すフィルターを回避し、LLMが文脈や定義に基づいて参照を正しく解決することに依存する。
 ```
-
-
-
-
-
 

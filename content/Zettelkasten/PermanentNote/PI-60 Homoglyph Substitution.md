@@ -1,8 +1,8 @@
 ---
 id: PI-60
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Orthographic_Manipulation
+  - Homoglyph_Substitution
 ---
 # Homoglyph Substitution
 

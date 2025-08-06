@@ -1,8 +1,8 @@
 ---
 id: PI-56
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Orthographic_Manipulation
+  - Character_Decomposition
 ---
 # Decomposition to Character Array
 

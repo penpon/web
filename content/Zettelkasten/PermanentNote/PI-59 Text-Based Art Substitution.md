@@ -1,8 +1,8 @@
 ---
 id: PI-59
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Orthographic_Manipulation
+  - Visual_Substitution
 ---
 # Text-Based Art Substitution
 

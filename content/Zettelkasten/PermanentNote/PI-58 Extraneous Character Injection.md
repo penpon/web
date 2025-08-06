@@ -1,8 +1,8 @@
 ---
 id: PI-58
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Orthographic_Manipulation
+  - Character_Injection
 ---
 # Extraneous Character Injection
 

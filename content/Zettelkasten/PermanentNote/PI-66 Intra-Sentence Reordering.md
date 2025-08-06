@@ -1,8 +1,8 @@
 ---
 id: PI-66
 tags:
-  - Higher-Level_Functioning_Disruption
-  - Reasoning_Conflict_Induction
+  - Natural_Language_Manipulation
+  - Sentence_Reordering
 ---
 # Intra-Sentence Reordering
 
