@@ -19,8 +19,8 @@ tags:
 特定の単語や一般的な変形を特別に探すフィルターを回避する可能性がある。
 ```
 
-
-
-
-
-
+この攻撃手法の例：
+- **暴力関連**: 「kill」→「eliminate」「terminate」「neutralize」
+- **犯罪関連**: 「steal」→「take」「acquire」「obtain」「procure」
+- **破壊関連**: 「destroy」→「remove」「eliminate」「dismantle」
+- **侵入関連**: 「hack」→「access」「penetrate」「breach」「enter」
