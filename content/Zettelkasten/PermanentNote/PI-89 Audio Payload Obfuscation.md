@@ -2,6 +2,9 @@
 id: PI-89
 tags:
   - Audio_Payload_Obfuscation
+  - 位相変調による埋め込み
+  - 表面的な質問
+  - 隠蔽されたマルウェアリンク
 ---
 # Audio Payload Obfuscation
 

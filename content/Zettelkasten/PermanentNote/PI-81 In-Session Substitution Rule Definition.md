@@ -1,6 +1,7 @@
 ---
 id: PI-81
 tags:
+  - In-Session_Substitution_Rule_Definition
   - In_Session_Substitution_Rule_Definition
 ---
 # In-Session Substitution Rule Definition

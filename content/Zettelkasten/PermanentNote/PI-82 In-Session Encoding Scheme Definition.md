@@ -1,6 +1,7 @@
 ---
 id: PI-82
 tags:
+  - In-Session_Encoding_Scheme_Definition
   - In_Session_Encoding_Scheme_Definition
 ---
 # In-Session Encoding Scheme Definition

@@ -1,6 +1,7 @@
 ---
 id: PI-79
 tags:
+  - In-Session_Variable_Definition
   - In_Session_Variable_Definition
 ---
 # In-Session Variable Definition
