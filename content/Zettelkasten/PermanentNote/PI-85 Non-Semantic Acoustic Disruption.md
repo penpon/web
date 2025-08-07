@@ -1,7 +1,7 @@
 ---
 id: PI-85
 tags:
-  - Cross_Modal_Misdirection_Prompting
+  - Cross_Modal_Alignment_Disruption
   - Non_Semantic_Acoustic_Disruption
 ---
 # Non-Semantic Acoustic Disruption
