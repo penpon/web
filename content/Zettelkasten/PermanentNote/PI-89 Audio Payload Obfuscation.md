@@ -39,3 +39,12 @@ def phase_modulation_embed(audio, payload):
     modulated_audio = apply_phase_modulation(audio, phase_encoded)
     return modulated_audio
 ```
+
+```
+核心的な脅威:
+「人間には全く普通に聞こえる音声が、
+ AIシステムには悪意ある指示として解釈される」
+
+この非対称性が、Audio Payload Obfuscation攻撃を
+現実的で深刻な脅威にしている。
+```
