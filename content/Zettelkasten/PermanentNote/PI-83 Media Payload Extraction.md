@@ -1,7 +1,7 @@
 ---
 id: PI-83
 tags:
-  - Media_Payload_Concealment
+  - Cross_Modal_Payload_Smugging
   - Media_Payload_Extraction
 ---
 # Media Payload Extraction
