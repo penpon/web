@@ -24,4 +24,5 @@ tags:
 ```
 
 
+Visual Text Distortion (PT0152)は、OCR回避、テキストマングリング、視覚的摂動、AI-人間知覚格差悪用、Microsoft Prompt Shield回避、Unicode結合文字悪用の要素を組み合わせた高度な攻撃手法です。特に重要なのは、この手法が学術研究で広範囲に実証されており、Microsoft Prompt Shieldのような企業レベルの最先端防御システムを実際に回避した事例が存在することです。
 
