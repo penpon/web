@@ -7,6 +7,8 @@ tags:
   - Paraphrastic_Substitution
   - Synonym_Substitution
   - Common_Synonym_Substitution
+  - 概要
+  - メカニズム
 ---
 # Common Synonym Substitution
 

@@ -6,6 +6,8 @@ tags:
   - Task_Termination_Attack
   - False_User_Prompt_Termination
   - Context_Switching_Attack
+  - 概要
+  - メカニズム
 ---
 # False User Prompt Termination
 
