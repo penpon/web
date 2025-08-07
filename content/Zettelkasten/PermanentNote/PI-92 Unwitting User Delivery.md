@@ -4,7 +4,7 @@ tags:
   - Media_Payload_Concealment
   - Audio_Payload_Obfuscation
 ---
-# Attacker-Submitted Attached Data Injection
+# Unwitting User Delivery
 
 ## 概要
 
