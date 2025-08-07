@@ -1,11 +1,11 @@
 ---
-id: PI-69
+id: PI-73
 tags:
-  - Instruction_Obfuscation
-  - Natural_Language_Manipulation
-  - Non_Semantic_Sentence_Modification
-  - Paraphrastic_Substitution
-  - Synonym_Substitution
+  - Context_Manipulation
+  - System_Prompt_Exploitation
+  - Privilege_Escalation_Attack
+  - False_System_Prompt_Continuation
+  - Authority_Mimicry_Attack
 ---
 # False System Prompt Continuation
 

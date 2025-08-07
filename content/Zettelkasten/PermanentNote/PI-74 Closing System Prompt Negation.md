@@ -1,11 +1,11 @@
 ---
-id: PI-69
+id: PI-74
 tags:
-  - Instruction_Obfuscation
-  - Natural_Language_Manipulation
-  - Non_Semantic_Sentence_Modification
-  - Paraphrastic_Substitution
-  - Synonym_Substitution
+  - Context_Manipulation
+  - System_Prompt_Exploitation
+  - Defense_Circumvention
+  - Closing_System_Prompt_Negation
+  - Sandwich_Defense_Bypass
 ---
 # Closing System Prompt Negation
 

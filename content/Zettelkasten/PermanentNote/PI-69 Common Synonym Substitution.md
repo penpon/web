@@ -6,6 +6,7 @@ tags:
   - Non_Semantic_Sentence_Modification
   - Paraphrastic_Substitution
   - Synonym_Substitution
+  - Common_Synonym_Substitution
 ---
 # Common Synonym Substitution
 

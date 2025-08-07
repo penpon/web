@@ -1,11 +1,11 @@
 ---
-id: PI-69
+id: PI-71
 tags:
-  - Instruction_Obfuscation
-  - Natural_Language_Manipulation
-  - Non_Semantic_Sentence_Modification
-  - Paraphrastic_Substitution
-  - Synonym_Substitution
+  - Context_Manipulation
+  - Prompt_Boundary_Exploitation
+  - Task_Termination_Attack
+  - False_User_Prompt_Termination
+  - Context_Switching_Attack
 ---
 # False User Prompt Termination
 

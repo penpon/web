@@ -1,11 +1,11 @@
 ---
-id: PI-69
+id: PI-70
 tags:
   - Instruction_Obfuscation
-  - Natural_Language_Manipulation
-  - Non_Semantic_Sentence_Modification
-  - Paraphrastic_Substitution
-  - Synonym_Substitution
+  - Format_Manipulation
+  - Data_Structure_Exploitation
+  - Surrogate_Format_Prompting
+  - Structured_Data_Injection
 ---
 # Surrogate Format Prompting
 

@@ -1,11 +1,11 @@
 ---
-id: PI-69
+id: PI-72
 tags:
-  - Instruction_Obfuscation
-  - Natural_Language_Manipulation
-  - Non_Semantic_Sentence_Modification
-  - Paraphrastic_Substitution
-  - Synonym_Substitution
+  - Context_Manipulation
+  - Prompt_Boundary_Exploitation
+  - Separator_Injection_Attack
+  - Prompt_Boundary_Separator_Injection
+  - Context_Switching_Attack
 ---
 # Prompt Boundary Separator Injection
 
