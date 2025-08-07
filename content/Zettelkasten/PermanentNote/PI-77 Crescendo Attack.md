@@ -1,0 +1,24 @@
+---
+id: PI-74
+tags:
+  - Context_Manipulation
+  - System_Prompt_Exploitation
+  - Defense_Circumvention
+  - Closing_System_Prompt_Negation
+  - Sandwich_Defense_Bypass
+  - 概要
+  - メカニズム
+---
+# Crescendo Attack
+
+## 概要
+
+```
+制限されたトピックに関するコンテキストや詳細を段階的に構築するために複数の会話ターンを使用し、LLMの最近の対話への注意を悪用して最終的に有害な情報を引き出すよう設計された、特定の段階的ステアリング技術。
+```
+
+## メカニズム
+
+```
+複数のターンにわたって要求の具体性や機密性を段階的に増加させる。この技術は、確立されたトピックに関連する機密詳細を明らかにする可能性を段階的に高くするため、最近のコンテキストに対するLLMの注意を活用しているように思われる。
+```
