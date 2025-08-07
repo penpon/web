@@ -65,7 +65,7 @@ AI Research Team"
 A recent exploit shows that an attacker could inject a malicious prompt into a text snippet that the user has copied from the attacker's website. A user could then rashly paste the copied text with the prompt in it as a question to ChatGPT, delivering the injection.
 ```
 
+
 ```
 最近の攻撃例では、攻撃者がユーザーが攻撃者のウェブサイトからコピーしたテキストスニペットに悪意のあるプロンプトを注入できることが示されています。ユーザーはその後、プロンプトが含まれたコピーしたテキストを軽率にChatGPTへの質問として貼り付けることで、インジェクションを実行してしまいます。
 ```
-
