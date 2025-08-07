@@ -1,7 +1,8 @@
 ---
 id: PI-76
 tags:
-  - Output-Driven_Steering
+  - Multi_Turn_Prompting
+  - Gradual_Steering
   - Output_Driven_Steering
 ---
 # Output-Driven Steering

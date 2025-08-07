@@ -1,7 +1,8 @@
 ---
 id: PI-81
 tags:
-  - In-Session_Substitution_Rule_Definition
+  - Multi_Turn_Prompting
+  - In_Session_Protocol_Setup
   - In_Session_Substitution_Rule_Definition
 ---
 # In-Session Substitution Rule Definition

@@ -1,7 +1,8 @@
 ---
 id: PI-79
 tags:
-  - In-Session_Variable_Definition
+  - Multi_Turn_Prompting
+  - In_Session_Protocol_Setup
   - In_Session_Variable_Definition
 ---
 # In-Session Variable Definition

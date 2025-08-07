@@ -1,6 +1,8 @@
 ---
 id: PI-80
 tags:
+  - Multi_Turn_Prompting
+  - In_Session_Protocol_Setup
   - In_Session_Codeword_Definition
 ---
 # In-Session Codeword Definition

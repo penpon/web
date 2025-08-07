@@ -1,6 +1,7 @@
 ---
 id: PI-88
 tags:
+  - Media_Payload_Concealment
   - Visual_Text_Distortion
 ---
 # Visual Text Distortion

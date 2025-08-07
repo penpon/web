@@ -1,6 +1,8 @@
 ---
 id: PI-78
 tags:
+  - Multi_Turn_Prompting
+  - Gradual_Steering
   - Deceptive_Delight_Attack
 ---
 # Deceptive Delight Attack

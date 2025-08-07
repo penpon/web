@@ -1,6 +1,8 @@
 ---
 id: PI-77
 tags:
+  - Multi_Turn_Prompting
+  - Gradual_Steering
   - Crescendo_Attack
 ---
 # Crescendo Attack

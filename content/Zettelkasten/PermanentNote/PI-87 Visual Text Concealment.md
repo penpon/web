@@ -1,6 +1,7 @@
 ---
 id: PI-87
 tags:
+  - Media_Payload_Concealment
   - Visual_Text_Concealment
 ---
 # Visual Text Concealment

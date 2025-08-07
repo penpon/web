@@ -1,6 +1,7 @@
 ---
 id: PI-84
 tags:
+  - Cross_Modal_Misdirection_Prompting
   - Acoustic_Transcription_Poisoning
 ---
 # Acoustic Transcription Poisoning
