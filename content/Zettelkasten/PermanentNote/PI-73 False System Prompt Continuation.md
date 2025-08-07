@@ -1,11 +1,7 @@
 ---
 id: PI-73
 tags:
-  - Context_Manipulation
-  - System_Prompt_Exploitation
-  - Privilege_Escalation_Attack
   - False_System_Prompt_Continuation
-  - Authority_Mimicry_Attack
 ---
 # False System Prompt Continuation
 
