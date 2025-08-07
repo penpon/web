@@ -51,3 +51,5 @@ Media Payload Concealment
 結果: 隠された指示が発見・実行される
 ```
 
+![[Pasted image 20250807195026.png]]
+
