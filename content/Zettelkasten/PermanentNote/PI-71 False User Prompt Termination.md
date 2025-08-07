@@ -1,13 +1,7 @@
 ---
 id: PI-71
 tags:
-  - Context_Manipulation
-  - Prompt_Boundary_Exploitation
-  - Task_Termination_Attack
   - False_User_Prompt_Termination
-  - Context_Switching_Attack
-  - 概要
-  - メカニズム
 ---
 # False User Prompt Termination
 

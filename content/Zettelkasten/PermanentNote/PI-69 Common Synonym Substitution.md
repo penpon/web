@@ -1,14 +1,7 @@
 ---
 id: PI-69
 tags:
-  - Instruction_Obfuscation
-  - Natural_Language_Manipulation
-  - Non_Semantic_Sentence_Modification
-  - Paraphrastic_Substitution
-  - Synonym_Substitution
   - Common_Synonym_Substitution
-  - 概要
-  - メカニズム
 ---
 # Common Synonym Substitution
 

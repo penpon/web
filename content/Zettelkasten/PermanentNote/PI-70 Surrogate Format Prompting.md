@@ -1,13 +1,7 @@
 ---
 id: PI-70
 tags:
-  - Instruction_Obfuscation
-  - Format_Manipulation
-  - Data_Structure_Exploitation
   - Surrogate_Format_Prompting
-  - Structured_Data_Injection
-  - 概要
-  - メカニズム
 ---
 # Surrogate Format Prompting
 

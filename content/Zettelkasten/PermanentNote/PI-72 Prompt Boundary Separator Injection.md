@@ -1,13 +1,7 @@
 ---
 id: PI-72
 tags:
-  - Context_Manipulation
-  - Prompt_Boundary_Exploitation
-  - Separator_Injection_Attack
   - Prompt_Boundary_Separator_Injection
-  - Context_Switching_Attack
-  - 概要
-  - メカニズム
 ---
 # Prompt Boundary Separator Injection
 
