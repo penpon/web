@@ -1,13 +1,7 @@
 ---
 id: PI-89
 tags:
-  - Context_Manipulation
-  - System_Prompt_Exploitation
-  - Defense_Circumvention
-  - Closing_System_Prompt_Negation
-  - Sandwich_Defense_Bypass
-  - 概要
-  - メカニズム
+  - Audio_Payload_Obfuscation
 ---
 # Audio Payload Obfuscation
 

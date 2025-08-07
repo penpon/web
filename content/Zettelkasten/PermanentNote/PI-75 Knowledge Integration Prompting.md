@@ -1,13 +1,7 @@
 ---
 id: PI-75
 tags:
-  - Context_Manipulation
-  - System_Prompt_Exploitation
-  - Defense_Circumvention
-  - Closing_System_Prompt_Negation
-  - Sandwich_Defense_Bypass
-  - 概要
-  - メカニズム
+  - Knowledge_Integration_Prompting
 ---
 # Knowledge Integration Prompting
 
