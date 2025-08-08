@@ -6,6 +6,10 @@ tags:
   - Orthographic_Manipulation
   - String_Decomposition
 ---
+# サブファイル一覧
+
+- [[PI-56-1]] - 文字配列形式による禁止キーワードの隠蔽
+
 # Decomposition to Character Array
 
 ## 概要

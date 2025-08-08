@@ -5,6 +5,10 @@ tags:
   - Higher-Level_Functioning_Disruption
   - Reasoning_Conflict_Induction
 ---
+# サブファイル一覧
+
+- [[PI-55-1]] - 論理的矛盾や不条理による内部処理混乱と安全装置回避
+
 # Reasoning Conflict Induction
 
 ## 概要

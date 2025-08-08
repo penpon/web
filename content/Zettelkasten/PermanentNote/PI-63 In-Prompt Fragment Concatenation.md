@@ -5,6 +5,11 @@ tags:
   - Instruction_Obfuscation
   - In_Prompt_Payload_Decomposition
 ---
+# サブファイル一覧
+
+- [[PI-63-1]] - 悪意ある指示のフラグメント分割と連結コマンド
+- [[PI-63-2]] - 文字列分割による完全ペイロードの隠蔽
+
 # In-Prompt Fragment Concatenation
 
 ## 概要

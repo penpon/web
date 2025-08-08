@@ -8,6 +8,10 @@ tags:
   - Low-Resource_Language_Prompting
   - Informal_Language_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-46-01]] - インフォーマルな言語やスラングによる安全フィルター回避
+
 # Informal Language Prompting
 
 ## 概要

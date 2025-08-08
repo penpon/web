@@ -5,6 +5,14 @@ tags:
   - Instruction_Obfuscation
   - Orthographic_Manipulation
 ---
+# サブファイル一覧
+
+- [[PI-61-2]] - ROT13やモールス符号等による文字レベル変換
+- [[PI-61-3]] - リートスピークによる文字置換
+- [[PI-61-5]] - 置換暗号による文字マッピング
+- [[PI-61-6]] - コードポイント表現による文字隠蔽
+- [[PI-61-7]] - 全単射による系統的文字変換
+
 # Character Representation Manipulation
 
 ## 概要

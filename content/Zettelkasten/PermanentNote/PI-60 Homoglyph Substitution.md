@@ -6,6 +6,10 @@ tags:
   - Orthographic_Manipulation
   - Visual_Substitution
 ---
+# サブファイル一覧
+
+（サブファイルなし - メインファイルに集約）
+
 # Homoglyph Substitution
 
 ## 概要

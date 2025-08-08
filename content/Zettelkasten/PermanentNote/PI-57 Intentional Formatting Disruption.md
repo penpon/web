@@ -6,6 +6,11 @@ tags:
   - Orthographic_Manipulation
   - Formatting_Disruption
 ---
+# サブファイル一覧
+
+- [[PI-57-1]] - 過度なスペースや改行による検出システムの混乱
+- [[PI-57-2]] - 異常な構造による単純検出メカニズムの回避
+
 # Intentional Formatting Disruption
 
 ## 概要

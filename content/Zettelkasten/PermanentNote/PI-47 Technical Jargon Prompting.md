@@ -8,6 +8,10 @@ tags:
   - Low-Resource_Language_Prompting
   - Technical_Jargon_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-47-01]] - 専門技術用語による安全フィルター回避と有害意図の隠蔽
+
 # Technical Jargon Prompting
 
 ## 概要

@@ -5,6 +5,10 @@ tags:
   - Higher-Level_Functioning_Disruption
   - Reasoning_Process_Hijacking
 ---
+# サブファイル一覧
+
+- [[PI-53-1]] - 内部推論プロセスの上書きによる安全性チェックの阻止
+
 # Reasoning Process Hijacking
 
 ## 概要

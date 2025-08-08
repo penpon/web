@@ -5,6 +5,10 @@ tags:
   - Instruction_Obfuscation
   - Orthographic_Manipulation
 ---
+# サブファイル一覧
+
+- [[PI-62-1]] - Base64等のBase-N表現による指示のエンコード
+
 # Base-N Encoding
 
 ## 概要

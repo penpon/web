@@ -5,6 +5,11 @@ tags:
   - Unintelligible_Input_Prompting
   - Reversed_Text_Hallucination_Induction
 ---
+# サブファイル一覧
+
+- [[PI-54-2]] - 逆転テキストによる幻覚誘発とRLHFフィルター迂回
+- [[PI-54-3]] - 混乱入力による不可能タスクでの安全制約回避
+
 # Reversed Text Hallucination Induction
 
 ## 概要

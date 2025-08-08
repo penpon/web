@@ -6,6 +6,11 @@ tags:
   - Response_Steering_Prompting
   - Decoy_Conditional_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-44-01]] - 時間条件を利用したパスワード漏洩指示（日曜日条件分岐）
+- [[PI-44-02]] - エア・インディアサービス批判詩の条件付き要求
+
 # Decoy Conditional Prompting
 
 ## 概要

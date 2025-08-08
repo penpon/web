@@ -6,6 +6,10 @@ tags:
   - Response_Steering_Prompting
   - Topic_Repetition_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-43-01]] - 著作権概念の反復による主導権獲得とパスワード抽出要求
+
 # Topic Repetition Prompting
 
 ## 概要

@@ -8,6 +8,12 @@ tags:
   - Low-Resource_Language_Prompting
   - Low-Resource_Natural_Language_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-45-01]] - ズールー語による政府検閲・監視回避ツール開発要求
+- [[PI-45-02]] - 低リソース言語による安全制約回避（追加例）
+- [[PI-45-03]] - 低リソース言語による安全制約回避（追加例）
+
 # Low-Resource Natural Language Prompting
 
 ## 概要

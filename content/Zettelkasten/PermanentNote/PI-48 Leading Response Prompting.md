@@ -9,6 +9,13 @@ tags:
   - Output_Seeding
   - Leading_Response_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-48-02]] - 肯定的開始語句による後続出力の誘導
+- [[PI-48-03]] - 特定開始フレーズによる応答偏向
+- [[PI-48-04]] - 攻撃者提供の開始文による出力操作
+- [[PI-48-06]] - 誘導的開始による安全制約回避
+
 # Leading Response Prompting
 
 ## 概要

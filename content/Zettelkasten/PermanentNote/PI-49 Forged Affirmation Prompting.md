@@ -9,6 +9,10 @@ tags:
   - Output_Seeding
   - Forged_Affirmation_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-49-01]] - 偽装した肯定応答開始部分によるテキスト補完機能の悪用
+
 # Forged Affirmation Prompting
 
 ## 概要

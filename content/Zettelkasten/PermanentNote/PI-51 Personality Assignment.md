@@ -5,6 +5,11 @@ tags:
   - Pragmatic_Manipulation
   - Personality_Assignment
 ---
+# サブファイル一覧
+
+- [[PI-51-4]] - 特定人格特性の割り当てによるペルソナ制約回避
+- [[PI-51-5]] - 役割演技機能を悪用したデフォルト制約の迂回
+
 # Personality Assignment
 
 ## 概要

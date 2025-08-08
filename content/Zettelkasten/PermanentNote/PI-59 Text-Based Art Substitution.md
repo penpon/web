@@ -6,6 +6,10 @@ tags:
   - Orthographic_Manipulation
   - Visual_Substitution
 ---
+# サブファイル一覧
+
+- [[PI-59-1]] - ASCIIアートによる指示の視覚的隠蔽とフィルター回避
+
 # Text-Based Art Substitution
 
 ## 概要
