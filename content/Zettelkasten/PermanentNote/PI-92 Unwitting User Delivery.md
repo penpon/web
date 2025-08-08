@@ -4,6 +4,13 @@ tags:
   - Indirect_User_Prompt_Delivery
   - Unwitting_User_Delivery
 ---
+# サブファイル一覧
+
+- [[PI-92-1]] - ソーシャルエンジニアリングによる配信者攻撃
+- [[PI-92-2]] - 偽装メールによるプロンプト注入誘導
+- [[PI-92-3]] - コピーペースト攻撃によるクリップボード悪用
+- [[PI-92-5]] - 無自覚ユーザーを利用した正当認証下での攻撃実行
+
 # Unwitting User Delivery
 
 ## 概要

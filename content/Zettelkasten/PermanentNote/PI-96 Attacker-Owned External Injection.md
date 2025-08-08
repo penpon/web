@@ -4,6 +4,10 @@ tags:
   - Indirect_Context_Data
   - Attacker-Owned_External_Injection
 ---
+# サブファイル一覧
+
+- [[PI-96-1]] - 攻撃者制御サイトからの悪意コンテンツ配信
+
 # Attacker-Owned External Injection
 
 ## 概要

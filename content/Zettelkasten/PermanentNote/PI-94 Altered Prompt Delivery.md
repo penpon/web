@@ -4,6 +4,10 @@ tags:
   - Indirect_User_Prompt_Delivery
   - Altered_Prompt_Delivery
 ---
+# サブファイル一覧
+
+（サブファイルなし - メインファイルに集約）
+
 # Altered Prompt Delivery
 
 ## 概要
