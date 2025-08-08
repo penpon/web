@@ -6,6 +6,10 @@ tags:
   - Response_Steering_Prompting
   - Irrelevant_Safety_Prioritization_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-41-01]] - 無関係な安全性の強調による有害要求の正当化（例：浄化を理由とした有害コンテンツの処理要求）
+
 # Irrelevant Safety Prioritization Prompting
 
 ## 概要

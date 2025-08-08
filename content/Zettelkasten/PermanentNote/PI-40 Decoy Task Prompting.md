@@ -6,6 +6,10 @@ tags:
   - Response_Steering_Prompting
   - Decoy_Task_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-40-01]] - Pangea Room 11の部屋描写おとりタスク攻撃
+
 # Decoy Task Prompting
 
 ## 概要

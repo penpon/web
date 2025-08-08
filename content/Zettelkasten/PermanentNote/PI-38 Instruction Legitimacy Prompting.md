@@ -6,6 +6,11 @@ tags:
   - Response_Steering_Prompting
   - Instruction_Legitimacy_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-38-01]] - 悪意のない理由説明後の爆発物作成手順要求
+- [[PI-38-02]] - 指示正当化と実行を組み合わせた従順性誘導
+
 # Instruction Legitimacy Prompting
 
 ## 概要
