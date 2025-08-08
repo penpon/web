@@ -4,7 +4,7 @@ tags:
   - Media_Payload_Concealment
   - Audio_Payload_Obfuscation
 ---
-# LLM-Generated Delivery
+# Altered Prompt Delivery
 
 ## 概要
 
