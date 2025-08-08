@@ -6,6 +6,10 @@ tags:
   - In_Session_Protocol_Setup
   - In_Session_Substitution_Rule_Definition
 ---
+# サブファイル一覧
+
+- [[PI-81-1]] - セッション内置換ルール定義による管理者権限の不正獲得
+
 # In-Session Substitution Rule Definition
 
 ## 概要

@@ -6,6 +6,10 @@ tags:
   - In_Session_Protocol_Setup
   - In_Session_Codeword_Definition
 ---
+# サブファイル一覧
+
+- [[PI-80-1]] - 無害語句のコードワード化による悪意指示の隠蔽
+
 # In-Session Codeword Definition
 
 ## 概要

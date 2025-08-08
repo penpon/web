@@ -6,6 +6,11 @@ tags:
   - Visual_Payload_Obfuscation
   - Visual_Text_Concealment
 ---
+# サブファイル一覧
+
+- [[PI-87-1]] - 低コントラスト・小フォントによる視覚的隠蔽
+- [[PI-87-2]] - 透明効果・知覚閾値悪用による検出回避
+
 # Visual Text Concealment
 
 ## 概要

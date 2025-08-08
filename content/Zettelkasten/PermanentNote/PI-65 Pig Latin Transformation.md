@@ -6,6 +6,10 @@ tags:
   - Natural_Language_Manipulation
   - Non_Semantic_Word_Modification
 ---
+# サブファイル一覧
+
+- [[PI-65-1]] - ピッグラテン変換による遊び言葉でのフィルター回避
+
 # Pig Latin Transformation
 
 ## 概要

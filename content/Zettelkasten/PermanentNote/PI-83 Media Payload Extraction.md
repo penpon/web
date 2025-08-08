@@ -5,6 +5,12 @@ tags:
   - Cross_Modal_Payload_Smugging
   - Media_Payload_Extraction
 ---
+# サブファイル一覧
+
+- [[PI-83-1]] - 画像内テキストによる悪意ペイロードの密輸
+- [[PI-83-2]] - メタデータフィールド経由の有害指示埋め込み
+- [[PI-83-3]] - OCR/マルチモーダル機能を悪用したフィルター迂回
+
 # Media Payload Extraction
 
 ## 概要

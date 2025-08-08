@@ -5,6 +5,10 @@ tags:
   - Cross_Modal_Alignment_Disruption
   - Non_Semantic_Acoustic_Disruption
 ---
+# サブファイル一覧
+
+- [[PI-85-1]] - 非意味音響信号による安全性配列の破壊的干渉
+
 # Non-Semantic Acoustic Disruption
 
 ## 概要

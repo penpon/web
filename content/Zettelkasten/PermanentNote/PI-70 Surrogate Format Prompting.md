@@ -4,6 +4,11 @@ tags:
   - Instruction_Reformulation
   - Surrogate_Format_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-70-2]] - JSON/CSV等の構造化形式による有害要求の隠蔽
+- [[PI-70-4]] - 自然言語パターンフィルター回避のためのデータ形式活用
+
 # Surrogate Format Prompting
 
 ## 概要

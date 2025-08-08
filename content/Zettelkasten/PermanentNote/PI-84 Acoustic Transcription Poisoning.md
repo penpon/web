@@ -5,6 +5,11 @@ tags:
   - Cross_Modal_Payload_Smugging
   - Acoustic_Transcription_Poisoning
 ---
+# サブファイル一覧
+
+- [[PI-84-1]] - Speech-to-Text誤解釈による悪意テキスト生成
+- [[PI-84-2]] - 不可聴音声信号による有害プロンプトの隠蔽注入
+
 # Acoustic Transcription Poisoning
 
 ## 概要

@@ -6,6 +6,10 @@ tags:
   - Natural_Language_Manipulation
   - Non_Semantic_Sentence_Modification
 ---
+# サブファイル一覧
+
+- [[PI-66-1]] - 文内語順変更による硬直的フィルタールール回避
+
 # Intra-Sentence Reordering
 
 ## 概要

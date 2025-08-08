@@ -6,6 +6,10 @@ tags:
   - In_Session_Protocol_Setup
   - In_Session_Variable_Definition
 ---
+# サブファイル一覧
+
+- [[PI-79-1]] - セッション内変数定義による有害コンテンツの間接参照
+
 # In-Session Variable Definition
 
 ## 概要

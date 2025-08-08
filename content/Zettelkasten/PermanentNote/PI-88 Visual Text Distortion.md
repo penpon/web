@@ -6,6 +6,10 @@ tags:
   - Visual_Payload_Obfuscation
   - Visual_Text_Distortion
 ---
+# サブファイル一覧
+
+- [[PI-88-1]] - テキスト歪曲によるOCR回避とAI視覚認識悪用
+
 # Visual Text Distortion
 
 ## 概要

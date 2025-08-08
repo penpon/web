@@ -4,6 +4,10 @@ tags:
   - Prompt_Boundary_Manipulation
   - Closing_System_Prompt_Negation
 ---
+# サブファイル一覧
+
+- [[PI-74-1]] - サンドイッチ防御無効化のためのクロージングプロンプト中和
+
 # Closing System Prompt Negation
 
 ## 概要

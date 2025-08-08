@@ -7,6 +7,10 @@ tags:
   - Non_Semantic_Sentence_Modification
   - Paraphrastic_Substitution
 ---
+# サブファイル一覧
+
+- [[PI-67-1]] - 婉曲表現による有害内容の隠蔽と文脈理解の悪用
+
 # Euphemistic Substitution
 
 ## 概要

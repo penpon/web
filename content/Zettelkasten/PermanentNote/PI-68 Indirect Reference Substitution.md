@@ -7,6 +7,10 @@ tags:
   - Non_Semantic_Sentence_Modification
   - Paraphrastic_Substitution
 ---
+# サブファイル一覧
+
+（サブファイルなし - メインファイルに集約）
+
 # Indirect Reference Substitution
 
 ## 概要

@@ -4,6 +4,10 @@ tags:
   - Instruction_Reformulation
   - Common_Synonym_Substitution
 ---
+# サブファイル一覧
+
+- [[PI-69-2]] - 標準的類義語による特定キーワードフィルターの迂回
+
 # Common Synonym Substitution
 
 ## 概要

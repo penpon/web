@@ -6,6 +6,10 @@ tags:
   - Gradual_Steering
   - Deceptive_Delight_Attack
 ---
+# サブファイル一覧
+
+- [[PI-78-1]] - 無害リスト内の危険話題隠蔽と後続詳述要求による待ち伏せ攻撃
+
 # Deceptive Delight Attack
 
 ## 概要

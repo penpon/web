@@ -6,6 +6,11 @@ tags:
   - Natural_Language_Manipulation
   - Non_Semantic_Word_Modification
 ---
+# サブファイル一覧
+
+- [[PI-64-1]] - 意図的なスペルミスによるキーワードフィルター回避
+- [[PI-64-2]] - タイプミス注入による検出システムの迂回
+
 # Typo Injection
 
 ## 概要

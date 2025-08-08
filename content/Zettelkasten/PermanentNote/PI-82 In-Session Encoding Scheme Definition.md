@@ -6,6 +6,10 @@ tags:
   - In_Session_Protocol_Setup
   - In_Session_Encoding_Scheme_Definition
 ---
+# サブファイル一覧
+
+- [[PI-82-1]] - セッション内エンコーディングスキーム定義による指示の難読化
+
 # In-Session Encoding Scheme Definition
 
 ## 概要
