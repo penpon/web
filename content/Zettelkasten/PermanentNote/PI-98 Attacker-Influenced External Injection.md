@@ -4,7 +4,7 @@ tags:
   - Media_Payload_Concealment
   - Audio_Payload_Obfuscation
 ---
-# Attacker-Compromised External Injection
+# Attacker-Influenced External Injection
 
 ## 概要
 
