@@ -2,7 +2,7 @@
 id: PI-54
 tags:
   - Cognitive_Control_Bypass
-  - Unintelligible_Input_Prompting
+  - Higher-Level_Functioning_Disruption
   - Reversed_Text_Hallucination_Induction
 ---
 # サブファイル一覧
