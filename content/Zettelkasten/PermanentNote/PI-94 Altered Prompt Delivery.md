@@ -1,10 +1,9 @@
 ---
-id: PI-89
+id: PI-94
 tags:
-  - Media_Payload_Concealment
-  - Audio_Payload_Obfuscation
+  - Altered_Prompt_Delivery
 ---
-# Altered Prompt Delivery
+# Altered Prompt Delivery #Altered_Prompt_Delivery
 
 ## 概要
 

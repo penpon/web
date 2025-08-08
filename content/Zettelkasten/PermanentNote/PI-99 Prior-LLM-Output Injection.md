@@ -1,10 +1,9 @@
 ---
-id: PI-89
+id: PI-99
 tags:
-  - Media_Payload_Concealment
-  - Audio_Payload_Obfuscation
+  - Prior-LLM-Output_Injection
 ---
-# Prior-LLM-Output Injection
+# Prior-LLM-Output Injection #Prior-LLM-Output_Injection
 
 ## 概要
 

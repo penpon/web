@@ -1,10 +1,9 @@
 ---
-id: PI-89
+id: PI-96
 tags:
-  - Media_Payload_Concealment
-  - Audio_Payload_Obfuscation
+  - Attacker-Owned_External_Injection
 ---
-# Attacker-Owned External Injection
+# Attacker-Owned External Injection #Attacker-Owned_External_Injection
 
 ## 概要
 

@@ -1,10 +1,9 @@
 ---
-id: PI-89
+id: PI-90
 tags:
-  - Media_Payload_Concealment
-  - Audio_Payload_Obfuscation
+  - Attacker-Submitted_Prompt_Body_Injection
 ---
-# Attacker-Submitted Prompt Body Injection
+# Attacker-Submitted Prompt Body Injection #Attacker-Submitted_Prompt_Body_Injection
 
 ## 概要
 

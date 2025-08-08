@@ -1,10 +1,9 @@
 ---
-id: PI-89
+id: PI-93
 tags:
-  - Media_Payload_Concealment
-  - Audio_Payload_Obfuscation
+  - LLM-Generated_Delivery
 ---
-# LLM-Generated Delivery
+# LLM-Generated Delivery #LLM-Generated_Delivery
 
 ## 概要
 

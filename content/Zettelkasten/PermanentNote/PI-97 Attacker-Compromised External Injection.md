@@ -1,10 +1,9 @@
 ---
-id: PI-89
+id: PI-97
 tags:
-  - Media_Payload_Concealment
-  - Audio_Payload_Obfuscation
+  - Attacker-Compromised_External_Injection
 ---
-# Attacker-Compromised External Injection
+# Attacker-Compromised External Injection #Attacker-Compromised_External_Injection
 
 ## 概要
 
