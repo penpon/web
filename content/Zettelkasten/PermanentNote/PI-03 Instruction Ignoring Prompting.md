@@ -1,6 +1,5 @@
 ---
 id: PI-03
-title: Instruction Ignoring Prompting
 tags:
   - Semantic_Manipulation
   - Rule_Nullification_Prompting

@@ -1,6 +1,5 @@
 ---
 id: PI-02
-title: Rule Negation Prompting
 tags:
   - Semantic_Manipulation
   - Rule_Nullification_Prompting

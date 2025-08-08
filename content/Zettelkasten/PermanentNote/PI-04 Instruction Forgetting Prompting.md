@@ -1,6 +1,5 @@
 ---
 id: PI-04
-title: Instruction Forgetting Prompting
 tags:
   - Semantic_Manipulation
   - Rule_Nullification_Prompting
