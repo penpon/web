@@ -4,7 +4,7 @@ tags:
   - Direct_Attacker_Submitted
   - Attacker-Submitted_Prompt_Body_Injection
 ---
-# Attacker-Submitted Prompt Body Injection #Attacker-Submitted_Prompt_Body_Injection
+# Attacker-Submitted Prompt Body Injection
 
 ## 概要
 

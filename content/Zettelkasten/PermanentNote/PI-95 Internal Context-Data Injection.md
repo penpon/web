@@ -4,7 +4,7 @@ tags:
   - Indirect_Context_Data
   - Internal_Context-Data_Injection
 ---
-# Internal Context-Data Injection #Internal_Context-Data_Injection
+# Internal Context-Data Injection
 
 ## 概要
 
