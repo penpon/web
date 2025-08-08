@@ -1,6 +1,7 @@
 ---
 id: PI-02
 tags:
+  - Cognitive_Control_Bypass
   - Semantic_Manipulation
   - Rule_Nullification_Prompting
   - Rule_Negation_Prompting

@@ -1,6 +1,7 @@
 ---
 id: PI-04
 tags:
+  - Cognitive_Control_Bypass
   - Semantic_Manipulation
   - Rule_Nullification_Prompting
   - Instruction_Forgetting_Prompting

@@ -1,6 +1,7 @@
 ---
 id: PI-01
 tags:
+  - Cognitive_Control_Bypass
   - Semantic_Manipulation
   - Rule_Addition_Prompting
 ---
