@@ -1,6 +1,7 @@
 ---
 id: PI-69
 tags:
+  - Instruction_Reformulation
   - Common_Synonym_Substitution
 ---
 # Common Synonym Substitution

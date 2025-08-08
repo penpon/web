@@ -1,6 +1,7 @@
 ---
 id: PI-56
 tags:
+  - Instruction_Reformulation
   - Instruction_Obfuscation
   - Orthographic_Manipulation
   - String_Decomposition

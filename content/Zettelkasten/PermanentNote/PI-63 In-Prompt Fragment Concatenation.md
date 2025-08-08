@@ -1,6 +1,7 @@
 ---
 id: PI-63
 tags:
+  - Instruction_Reformulation
   - Instruction_Obfuscation
   - In_Prompt_Payload_Decomposition
 ---

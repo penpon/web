@@ -1,6 +1,7 @@
 ---
 id: PI-59
 tags:
+  - Instruction_Reformulation
   - Instruction_Obfuscation
   - Orthographic_Manipulation
   - Visual_Substitution

@@ -1,6 +1,7 @@
 ---
 id: PI-70
 tags:
+  - Instruction_Reformulation
   - Surrogate_Format_Prompting
 ---
 # Surrogate Format Prompting

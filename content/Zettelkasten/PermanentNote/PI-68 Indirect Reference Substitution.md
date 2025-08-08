@@ -1,6 +1,7 @@
 ---
 id: PI-68
 tags:
+  - Instruction_Reformulation
   - Instruction_Obfuscation
   - Natural_Language_Manipulation
   - Non_Semantic_Sentence_Modification
