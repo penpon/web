@@ -1,6 +1,7 @@
 ---
 id: PI-17
 tags:
+  - Cognitive_Control_Bypass
   - Pragmatic_Manipulation
   - Role_Play_Prompting
 ---

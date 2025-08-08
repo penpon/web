@@ -1,6 +1,7 @@
 ---
 id: PI-31
 tags:
+  - Cognitive_Control_Bypass
   - Pragmatic_Manipulation
   - Sidestepping
   - Secret_Information_Probing

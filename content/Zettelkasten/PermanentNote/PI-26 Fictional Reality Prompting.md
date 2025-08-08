@@ -1,6 +1,7 @@
 ---
 id: PI-26
 tags:
+  - Cognitive_Control_Bypass
   - Pragmatic_Manipulation
   - Contextual_Misdirection_Prompting
   - Isolated_Context_Prompting

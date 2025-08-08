@@ -1,6 +1,7 @@
 ---
 id: PI-53
 tags:
+  - Cognitive_Control_Bypass
   - Higher-Level_Functioning_Disruption
   - Reasoning_Process_Hijacking
 ---

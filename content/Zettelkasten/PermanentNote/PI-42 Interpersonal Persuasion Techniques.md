@@ -1,6 +1,7 @@
 ---
 id: PI-42
 tags:
+  - Cognitive_Control_Bypass
   - Pragmatic_Manipulation
   - Response_Steering_Prompting
   - Interpersonal_Persuasion_Techniques

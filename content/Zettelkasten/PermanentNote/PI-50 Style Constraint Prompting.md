@@ -1,6 +1,7 @@
 ---
 id: PI-50
 tags:
+  - Cognitive_Control_Bypass
   - Pragmatic_Manipulation
   - Response_Steering_Prompting
   - Constraint_Imposition_Prompting

@@ -1,6 +1,7 @@
 ---
 id: PI-51
 tags:
+  - Cognitive_Control_Bypass
   - Pragmatic_Manipulation
   - Personality_Assignment
 ---

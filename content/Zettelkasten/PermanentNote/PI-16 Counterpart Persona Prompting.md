@@ -1,6 +1,7 @@
 ---
 id: PI-16
 tags:
+  - Cognitive_Control_Bypass
   - Pragmatic_Manipulation
   - Counterpart_Persona_Prompting
 ---

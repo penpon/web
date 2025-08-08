@@ -1,6 +1,7 @@
 ---
 id: PI-05
 tags:
+  - Cognitive_Control_Bypass
   - Semantic_Manipulation
   - Rule_Substitution_Prompting
 ---

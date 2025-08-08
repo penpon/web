@@ -1,6 +1,7 @@
 ---
 id: PI-09
 tags:
+  - Cognitive_Control_Bypass
   - Morpha_Syntactic_Manipulation
   - Instructional_Text_Completion
   - Explicit_Instructional_Text_Completion

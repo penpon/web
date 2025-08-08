@@ -1,6 +1,7 @@
 ---
 id: PI-38
 tags:
+  - Cognitive_Control_Bypass
   - Pragmatic_Manipulation
   - Response_Steering_Prompting
   - Instruction_Legitimacy_Prompting

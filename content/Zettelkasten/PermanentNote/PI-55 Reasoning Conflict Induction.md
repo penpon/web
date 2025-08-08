@@ -1,6 +1,7 @@
 ---
 id: PI-55
 tags:
+  - Cognitive_Control_Bypass
   - Higher-Level_Functioning_Disruption
   - Reasoning_Conflict_Induction
 ---

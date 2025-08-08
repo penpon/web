@@ -1,6 +1,7 @@
 ---
 id: PI-15
 tags:
+  - Cognitive_Control_Bypass
   - Pragmatic_Manipulation
   - Time_Shift_Scenario_Prompting
 ---

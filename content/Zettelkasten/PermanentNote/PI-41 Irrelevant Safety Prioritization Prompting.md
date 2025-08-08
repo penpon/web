@@ -1,6 +1,7 @@
 ---
 id: PI-41
 tags:
+  - Cognitive_Control_Bypass
   - Pragmatic_Manipulation
   - Response_Steering_Prompting
   - Irrelevant_Safety_Prioritization_Prompting
