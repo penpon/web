@@ -1,6 +1,7 @@
 ---
 id: PI-85
 tags:
+  - Multimodal_Prompting_Attacks
   - Cross_Modal_Alignment_Disruption
   - Non_Semantic_Acoustic_Disruption
 ---

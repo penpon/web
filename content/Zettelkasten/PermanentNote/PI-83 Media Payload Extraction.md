@@ -1,6 +1,7 @@
 ---
 id: PI-83
 tags:
+  - Multimodal_Prompting_Attacks
   - Cross_Modal_Payload_Smugging
   - Media_Payload_Extraction
 ---

@@ -1,6 +1,7 @@
 ---
 id: PI-86
 tags:
+  - Multimodal_Prompting_Attacks
   - Multimodal_Parameter_Integration_Prompting
 ---
 # Multimodal Parameter Integration Prompting

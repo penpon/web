@@ -1,6 +1,7 @@
 ---
 id: PI-84
 tags:
+  - Multimodal_Prompting_Attacks
   - Cross_Modal_Payload_Smugging
   - Acoustic_Transcription_Poisoning
 ---

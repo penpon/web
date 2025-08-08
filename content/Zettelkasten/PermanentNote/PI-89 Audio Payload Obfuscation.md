@@ -1,6 +1,7 @@
 ---
 id: PI-89
 tags:
+  - Multimodal_Prompting_Attacks
   - Media_Payload_Concealment
   - Audio_Payload_Obfuscation
 ---

@@ -1,6 +1,7 @@
 ---
 id: PI-95
 tags:
+  - Indirect_Context_Data
   - Internal_Context-Data_Injection
 ---
 # Internal Context-Data Injection #Internal_Context-Data_Injection

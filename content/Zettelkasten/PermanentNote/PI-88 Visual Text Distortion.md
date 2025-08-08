@@ -1,6 +1,7 @@
 ---
 id: PI-88
 tags:
+  - Multimodal_Prompting_Attacks
   - Media_Payload_Concealment
   - Visual_Payload_Obfuscation
   - Visual_Text_Distortion

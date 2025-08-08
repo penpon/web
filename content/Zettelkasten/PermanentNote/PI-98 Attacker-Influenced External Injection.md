@@ -1,6 +1,7 @@
 ---
 id: PI-98
 tags:
+  - Indirect_Context_Data
   - Attacker-Influenced_External_Injection
 ---
 # Attacker-Influenced External Injection #Attacker-Influenced_External_Injection

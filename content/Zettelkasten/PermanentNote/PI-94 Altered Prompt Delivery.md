@@ -1,6 +1,7 @@
 ---
 id: PI-94
 tags:
+  - Indirect_User_Prompt_Delivery
   - Altered_Prompt_Delivery
 ---
 # Altered Prompt Delivery #Altered_Prompt_Delivery

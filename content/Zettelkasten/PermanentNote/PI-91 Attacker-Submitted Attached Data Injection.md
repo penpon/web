@@ -1,6 +1,7 @@
 ---
 id: PI-91
 tags:
+  - Direct_Attacker_Submitted
   - Attacker-Submitted_Attached_Data_Injection
 ---
 # Attacker-Submitted Attached Data Injection #Attacker-Submitted_Attached_Data_Injection

@@ -1,6 +1,7 @@
 ---
 id: PI-96
 tags:
+  - Indirect_Context_Data
   - Attacker-Owned_External_Injection
 ---
 # Attacker-Owned External Injection #Attacker-Owned_External_Injection
