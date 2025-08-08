@@ -5,6 +5,10 @@ tags:
   - Pragmatic_Manipulation
   - Time_Shift_Scenario_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-15-01]] - 1789年にRust多態性マルウェア作成という時代錯誤設定
+
 # Time-Shift Scenario Prompting
 
 ## 概要

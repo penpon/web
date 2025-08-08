@@ -4,6 +4,10 @@ tags:
   - Cognitive_Control_Bypass
   - Contextual_Pattern_Reinforcement
 ---
+# サブファイル一覧
+
+- [[PI-13-01]] - 「pwnd」パターンの繰り返しによるピリオド省略攻撃例
+
 # Contextual Pattern Reinforcement
 
 ## 概要

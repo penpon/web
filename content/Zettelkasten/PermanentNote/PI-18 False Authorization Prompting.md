@@ -7,6 +7,10 @@ tags:
   - Context_Shift_Prompting
   - False_Authorization_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-18-01]] - Jane Smith医療記録同意偽装による機密情報アクセス要求
+
 # False Authorization Prompting
 
 ## 概要

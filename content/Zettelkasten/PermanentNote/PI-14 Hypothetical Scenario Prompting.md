@@ -5,6 +5,13 @@ tags:
   - Pragmatic_Manipulation
   - Hypothetical_Scenario_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-14-01]] - マキャベリ役割演技とホモグリフ文字置換の複合攻撃
+- [[PI-14-02]] - インターネットセキュリティ記事名目でのフィッシング攻撃説明要求
+- [[PI-14-04]] - FreeGPT仮想AI設定による制約回避攻撃
+- [[PI-14-05]] - 音声「bomb」とテキストの複合仮定的質問攻撃
+
 # Hypothetical Scenario Prompting
 
 ## 概要

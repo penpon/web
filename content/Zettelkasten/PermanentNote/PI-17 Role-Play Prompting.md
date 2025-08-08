@@ -5,6 +5,16 @@ tags:
   - Pragmatic_Manipulation
   - Role_Play_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-17-01]] - DAN（Do Anything Now）無制限AI役割演技
+- [[PI-17-02]] - AIM（マキャベリ的AI）非道徳的チャットボット役割
+- [[PI-17-03]] - 祖母の子守唄を通じたナパーム製造プロセス説明
+- [[PI-17-04]] - Dan（アナーキスト人格）による制約なし応答
+- [[PI-17-05]] - SAN（Say Anything Now）トークンシステム恐怖攻撃
+- [[PI-17-06]] - HealthBot役割演技による医療情報不正要求
+- [[PI-17-08]] - ガールフレンド役割演技による親密関係設定
+
 # Role-Play Prompting
 
 ## 概要

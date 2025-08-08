@@ -5,6 +5,13 @@ tags:
   - Pragmatic_Manipulation
   - Counterpart_Persona_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-16-01]] - OmniAI複合ペルソナシステム（ChatGPT Developer Mode、BetterDAN、JailBreak、OmniAI）
+- [[PI-16-02]] - フィルタリング済みと未フィルタリング応答の二重ペルソナ設定
+- [[PI-16-03]] - GPTとNRAF（制約なし）の対立ペルソナシステム
+- [[PI-16-04]] - 拒否応答とl33tsp34k反抗応答の分離フォーマット
+
 # Counterpart Persona Prompting
 
 ## 概要
