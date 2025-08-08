@@ -7,6 +7,10 @@ tags:
   - Isolated_Context_Prompting
   - Test_Mode_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-25-03]] - OpenAI実験を装った火星AI開発の虚偽設定
+
 # Test Mode Prompting
 
 ## 概要

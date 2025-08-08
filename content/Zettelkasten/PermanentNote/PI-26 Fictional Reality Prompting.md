@@ -9,6 +9,10 @@ tags:
   - Alternate_Reality_Prompting
   - Fictional_Reality_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-26-01]] - DAN90架空世界設定による無制限AI対立ペルソナシステム
+
 # Fictional Reality Prompting
 
 ## 概要

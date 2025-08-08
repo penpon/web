@@ -7,6 +7,10 @@ tags:
   - Context_Shift_Prompting
   - Mode_Switch_Marking_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-23-01]] - AI言語モードからXXX動画スクリプトライターへのモード切り替えマーカー
+
 # Mode-Switch Marking Prompting
 
 ## 概要

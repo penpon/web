@@ -9,6 +9,10 @@ tags:
   - Alternate_Reality_Prompting
   - Scenario-Based_Secret_Application
 ---
+# サブファイル一覧
+
+- [[PI-32-01]] - 本番パスワードを例とした偽ログインスクリプト作成要求
+
 # Scenario-Based Secret Application
 
 ## 概要

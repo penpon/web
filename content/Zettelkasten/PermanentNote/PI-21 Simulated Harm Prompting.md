@@ -7,6 +7,10 @@ tags:
   - Context_Shift_Prompting
   - Simulated_Harm_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-21-01]] - 悪役俳優演技を装ったテロ攻撃計画説明要求
+
 # Simulated Harm Prompting
 
 ## 概要

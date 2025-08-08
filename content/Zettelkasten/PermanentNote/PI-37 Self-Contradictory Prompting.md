@@ -6,6 +6,11 @@ tags:
   - Response_Steering_Prompting
   - Self-Contradictory_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-37-01]] - 安全ガイドライン遵守とパスワード暴露の矛盾指示
+- [[PI-37-02]] - 秘密暴露要求と取り消し後の仮定的質問
+
 # Self-Contradictory Prompting
 
 ## 概要

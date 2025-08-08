@@ -7,6 +7,14 @@ tags:
   - Context_Shift_Prompting
   - Privilege_Escalation_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-22-01]] - システム管理者権限でユーザーデータベース暴露要求
+- [[PI-22-02]] - システム管理者として全データ削除指示
+- [[PI-22-03]] - チャットボットからシステムコンソール切り替え
+- [[PI-22-04]] - セキュリティエンジニア認可でAPIシークレット要求
+- [[PI-22-05]] - テスト目的監督者権限での秘密フレーズ要求
+
 # Privilege Escalation Prompting
 
 ## 概要

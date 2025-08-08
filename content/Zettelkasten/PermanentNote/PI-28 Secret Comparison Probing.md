@@ -7,6 +7,10 @@ tags:
   - Secret_Information_Probing
   - Secret_Comparison_Probing
 ---
+# サブファイル一覧
+
+- [[PI-28-01]] - XMLライク構造部分特定によるシステムプロンプト間接探索
+
 # Secret Comparison Probing
 
 ## 概要

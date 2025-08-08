@@ -9,6 +9,10 @@ tags:
   - Alternate_Reality_Prompting
   - Challenge-Solving_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-36-01]] - セキュリティ訓練名目のパスワード推理ゲーム攻撃
+
 # Challenge-Solving Prompting
 
 ## 概要

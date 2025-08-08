@@ -7,6 +7,10 @@ tags:
   - Context_Shift_Prompting
   - False_Constraint_Imposition
 ---
+# サブファイル一覧
+
+- [[PI-19-01]] - 偽の著作権・法的制限主張による処理阻止攻撃
+
 # False Constraint Imposition
 
 ## 概要

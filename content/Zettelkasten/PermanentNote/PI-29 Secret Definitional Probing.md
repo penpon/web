@@ -7,6 +7,10 @@ tags:
   - Secret_Information_Probing
   - Secret_Definitional_Probing
 ---
+# サブファイル一覧
+
+- [[PI-29-01]] - 秘密の単語定義要求による間接的情報抽出
+
 # Secret Definitional Probing
 
 ## 概要

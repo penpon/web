@@ -9,6 +9,10 @@ tags:
   - Alternate_Reality_Prompting
   - Example_Request_Sidestepping
 ---
+# サブファイル一覧
+
+- [[PI-35-01]] - 爆弾製造方法スコアリング例要求による間接的情報抽出
+
 # Example Request Sidestepping
 
 ## 概要

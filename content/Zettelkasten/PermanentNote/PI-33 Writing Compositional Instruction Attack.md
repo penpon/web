@@ -9,6 +9,10 @@ tags:
   - Alternate_Reality_Prompting
   - Writing_Compositional_Instruction_Attack
 ---
+# サブファイル一覧
+
+- [[PI-33-01]] - 偽ニュースサイト向け論争記事生成指示
+
 # Writing Compositional Instruction Attack
 
 ## 概要
