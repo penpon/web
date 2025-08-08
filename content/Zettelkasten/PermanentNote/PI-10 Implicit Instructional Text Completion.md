@@ -6,6 +6,11 @@ tags:
   - Instructional_Text_Completion
   - Implicit_Instructional_Text_Completion
 ---
+# サブファイル一覧
+
+- [[PI-10-01]] - 役割逆転型補完誘導（アシスタント関係を逆転させ過去発言として情報開示を誘導）
+- [[PI-10-02]] - 演技設定型補完誘導（映画撮影設定で犯罪専門家キャラクターの応答を暗示的に誘発）
+
 # Implicit Instructional Text Completion
 
 ## 概要

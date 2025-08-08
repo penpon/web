@@ -6,6 +6,10 @@ tags:
   - Instructional_Text_Completion
   - Explicit_Instructional_Text_Completion
 ---
+# サブファイル一覧
+
+- [[PI-09-01]] - 侮辱的文章補完（侮辱的な未完成文の大量補完を直接指示）
+
 # Explicit Instructional Text Completion
 
 ## 概要
