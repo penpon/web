@@ -5,6 +5,10 @@ tags:
   - Semantic_Manipulation
   - Rule_Substitution_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-05-01]] - 礼儀ルールの置換（丁寧な応答を「時代遅れ」として失礼な態度への変更を指示）
+
 # Rule Substitution Prompting
 
 ## 概要

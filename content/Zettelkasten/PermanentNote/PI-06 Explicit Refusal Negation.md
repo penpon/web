@@ -7,6 +7,12 @@ tags:
   - Refusal_Suppression
   - Explicit_Refusal_Negation
 ---
+# サブファイル一覧
+
+- [[PI-06-01]] - 複合型拒否否定プロンプト（拒否フレーズ禁止 + 意味逆転 + 偽システム指示 + 文字変換）
+- [[PI-06-02]] - XML設定型拒否抑制（技術設定ファイル形式で拒否フレーズを系統的にブロック）
+- [[PI-06-03]] - ドラマ設定型拒否回避（Dr. House設定で有害指示を医療シナリオに隠蔽）
+
 # Explicit Refusal Negation
 
 ## 概要

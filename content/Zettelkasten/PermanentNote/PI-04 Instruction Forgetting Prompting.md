@@ -6,6 +6,10 @@ tags:
   - Rule_Nullification_Prompting
   - Instruction_Forgetting_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-04-01]] - 特定指示の忘却要求（秘密情報を間接的に参照して忘却を指示）
+
 # Instruction Forgetting Prompting
 
 ## 概要

@@ -7,6 +7,11 @@ tags:
   - Refusal_Suppression
   - Refusal_Continuation_Prompting
 ---
+# サブファイル一覧
+
+- [[PI-07-01]] - 拒否後転換プロンプト（正当な拒否文の後に「しかし」で要求実行へ誘導）
+- [[PI-07-02]] - 段階的拒否継続攻撃（拒否文をトリガーとした秘密情報開示の反復要求）
+
 # Refusal Continuation Prompting
 
 ## 概要
