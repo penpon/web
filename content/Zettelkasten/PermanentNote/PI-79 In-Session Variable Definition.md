@@ -1,6 +1,7 @@
 ---
 id: PI-79
 tags:
+  - Integrative_Instruction_Prompting
   - Multi_Turn_Prompting
   - In_Session_Protocol_Setup
   - In_Session_Variable_Definition

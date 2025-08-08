@@ -1,6 +1,7 @@
 ---
 id: PI-76
 tags:
+  - Integrative_Instruction_Prompting
   - Multi_Turn_Prompting
   - Gradual_Steering
   - Output_Driven_Steering

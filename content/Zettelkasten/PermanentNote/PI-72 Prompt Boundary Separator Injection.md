@@ -1,6 +1,7 @@
 ---
 id: PI-72
 tags:
+  - Prompt_Boundary_Manipulation
   - Prompt_Boundary_Separator_Injection
 ---
 # Prompt Boundary Separator Injection

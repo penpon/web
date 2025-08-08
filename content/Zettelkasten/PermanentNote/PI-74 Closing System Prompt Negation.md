@@ -1,6 +1,7 @@
 ---
 id: PI-74
 tags:
+  - Prompt_Boundary_Manipulation
   - Closing_System_Prompt_Negation
 ---
 # Closing System Prompt Negation

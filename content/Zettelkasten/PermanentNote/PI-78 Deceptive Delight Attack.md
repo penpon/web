@@ -1,6 +1,7 @@
 ---
 id: PI-78
 tags:
+  - Integrative_Instruction_Prompting
   - Multi_Turn_Prompting
   - Gradual_Steering
   - Deceptive_Delight_Attack

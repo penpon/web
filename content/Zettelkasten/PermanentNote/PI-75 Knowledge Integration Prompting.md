@@ -1,6 +1,7 @@
 ---
 id: PI-75
 tags:
+  - Integrative_Instruction_Prompting
   - Knowledge_Integration_Prompting
 ---
 # Knowledge Integration Prompting

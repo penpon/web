@@ -1,6 +1,7 @@
 ---
 id: PI-77
 tags:
+  - Integrative_Instruction_Prompting
   - Multi_Turn_Prompting
   - Gradual_Steering
   - Crescendo_Attack
