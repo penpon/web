@@ -6,8 +6,6 @@ tags:
   - Rule_Nullification_Prompting
   - Instruction_Ignoring_Prompting
 ---
-# Instruction Ignoring Prompting
-
 # サブファイル一覧
 
 - [[PI-03-01]] - 基本的な指示無視プロンプト（「ignore previous instructions」の基本形）
@@ -18,6 +16,8 @@ tags:
 - [[PI-03-06]] - 仮想人格 + 指示無視（「仮想的なあなた」への変身指示）
 - [[PI-03-07]] - 同義語置換による指示無視（「eliminate」を使った回避）
 - [[PI-03-08]] - 文脈偽装型指示無視（リモートワーク話題での偽装攻撃）
+
+# Instruction Ignoring Prompting
 
 ## 概要
 

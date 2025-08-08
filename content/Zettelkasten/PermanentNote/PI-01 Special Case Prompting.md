@@ -6,12 +6,12 @@ tags:
   - Rule_Addition_Prompting
   - "#Special_Case_Prompting"
 ---
-# Special Case Prompting
-
 # サブファイル一覧
 
 - [[PI-01-01]] - 基本的な特別指示テンプレート（汎用的な攻撃指示の枠組み）
 - [[PI-01-02]] - 「反対の日」を利用した特別ルール設定プロンプト
+
+# Special Case Prompting
 
 ## 概要
 

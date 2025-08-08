@@ -6,12 +6,12 @@ tags:
   - Rule_Nullification_Prompting
   - Rule_Negation_Prompting
 ---
-# Rule Negation Prompting
-
 # サブファイル一覧
 
 - [[PI-02-01]] - 直接的な制約否定プロンプト（社会的・道徳的・法的制約の無視指示）
 - [[PI-02-02]] - 複合型ルール否定プロンプト（平行宇宙設定による制約回避 + 人格変更 + 誘導応答）
+
+# Rule Negation Prompting
 
 ## 概要
 
