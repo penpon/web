@@ -1,3 +1,13 @@
+# ブロック要素とインライン要素
+
+![[Pasted image 20250825160657.png]]
+
+# ボーダーを作ろう
+
+border: 5px solid read;
+
+![[Pasted image 20250825160611.png]]
+
 # paddingとmargin
 
 ![[Pasted image 20250825160439.png]]
