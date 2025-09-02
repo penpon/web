@@ -12,3 +12,5 @@ text-align: center
 インライン要素は要素の幅分しか広がらない
 paddingやmarginは
 
+
+![[Pasted image 20250826213302.png]]
